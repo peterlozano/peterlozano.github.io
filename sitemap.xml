@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url><loc>/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+<url><loc>/about</loc><lastmod>2012-04-19T23:44Z</lastmod><changefreq>yearly</changefreq></url>
+<url><loc>/alter-drupal-behavior-using-cookies</loc><lastmod>2010-06-13T16:03Z</lastmod><changefreq>never</changefreq></url>
+<url><loc>/trip-san-francisco</loc><lastmod>2010-06-13T16:04Z</lastmod><changefreq>never</changefreq></url>
+<url><loc>/drupalcon-san-francisco-2010-day-1</loc><lastmod>2011-06-04T07:31Z</lastmod><changefreq>never</changefreq></url>
+<url><loc>/drupalcon-san-francisco-2010-day-2</loc><lastmod>2011-06-04T07:31Z</lastmod><changefreq>never</changefreq></url>
+<url><loc>/drupalcon-san-francisco-2010-day-3</loc><lastmod>2011-06-04T07:31Z</lastmod><changefreq>never</changefreq></url>
+<url><loc>/camera-drupal-instant-image-distribution</loc><lastmod>2010-11-14T19:18Z</lastmod><changefreq>never</changefreq></url>
+<url><loc>/barcelona-drupal-developer-days-2012-review</loc><lastmod>2012-06-20T09:57Z</lastmod><changefreq>yearly</changefreq></url>
+<url><loc>/symfony-drupal-8-related-issues-posts</loc><lastmod>2012-10-19T21:21Z</lastmod><changefreq>yearly</changefreq></url>
+<url><loc>http://pedrolozano.es/sobremi</loc><lastmod>2012-04-19T23:45Z</lastmod><changefreq>yearly</changefreq></url>
+<url><loc>http://pedrolozano.es/alterar-comportamiento-drupal-usando-cookies</loc><lastmod>2010-06-13T16:03Z</lastmod><changefreq>never</changefreq></url>
+<url><loc>http://pedrolozano.es/viaje-san-francisco</loc><lastmod>2010-06-13T16:04Z</lastmod><changefreq>never</changefreq></url>
+<url><loc>http://pedrolozano.es/drupalcon-san-francisco-2010-dia-1</loc><lastmod>2011-06-04T07:31Z</lastmod><changefreq>never</changefreq></url>
+<url><loc>http://pedrolozano.es/drupalcon-san-francisco-2010-dia-2</loc><lastmod>2011-06-04T07:31Z</lastmod><changefreq>never</changefreq></url>
+<url><loc>http://pedrolozano.es/drupalcon-san-francisco-2010-dia-3</loc><lastmod>2011-06-04T07:31Z</lastmod><changefreq>never</changefreq></url>
+<url><loc>http://pedrolozano.es/organizacion-drupalcamp-spain-2011</loc><lastmod>2011-10-08T13:40Z</lastmod><changefreq>yearly</changefreq></url>
+</urlset>

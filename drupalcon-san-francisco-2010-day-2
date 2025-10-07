@@ -1,0 +1,232 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+    "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:cc="http://creativecommons.org/ns#" xml:lang="en" dir="ltr">
+	<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Drupalcon San Francisco 2010, day 2 | Pedro Lozano | Drupal developer</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="canonical" href="drupalcon-san-francisco-2010-day-2" />
+<meta name="keywords" content="drupal, drupal-planet, drupalcon" />
+<meta name="description" content="Notes about the second day of Drupalcon San Francisco 2010." />
+<style type="text/css">#masthead{background-image:url(sites/peterlozano.com/themes/nitobe/headers/moscone-center.jpg);}</style>
+
+<link rel="shortcut icon" href="sites/peterlozano.com/files/nitobe_favicon.ico" type="image/x-icon" />
+		<link type="text/css" rel="stylesheet" media="all" href="sites/peterlozano.com/files/css/css_ba54f4d523527251e71e27428791d634.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="sites/peterlozano.com/files/css/css_b09f9ffa6d92fd67999f9b0d4fc443f7.css" />
+<link type="text/css" rel="stylesheet" media="print" href="sites/peterlozano.com/files/css/css_45fffe1b0642bf844c10a76f99134ad9.css" />
+				<!--[if lt IE 8]>
+			<link type="text/css" rel="stylesheet" media="screen" href="/sites/peterlozano.com/themes/nitobe/styles/fix-ie.css" />
+		<![endif]-->
+	</head>
+	<body class="nitobe not-front not-logged-in page-node node-type-story one-sidebar sidebar-left i18n-en">
+		<div id="page-wrapper" class="clear-block">
+			<div id="header-area" class="container-16">
+					<div id="title-group" class="grid-10">
+			            			            <span id="site-title"><a href="index.html" title="Pedro Lozano">Pedro Lozano</a></span>			            <span id="site-slogan">Drupal developer</span>			        </div><!-- /title-group -->
+			            			        <div id="header-region" class="grid-6">
+    			        	<div id="block-locale-0" class="block block-locale block-header">
+    <ul><li class="en first active"><a href="drupalcon-san-francisco-2010-day-2" class="language-link active">English</a></li>
+<li class="es last"><a href="http://pedrolozano.es/drupalcon-san-francisco-2010-dia-2" class="language-link">Español</a></li>
+</ul></div><!-- /block-locale-0 -->
+<hr class="break"/>    			        </div><!-- /header-region -->
+			        			                  		<hr class="break"/>
+          		            		<div id="header-links" class="grid-16">
+            		    <ul id="primary-nav" class="grid-16"><li class="menu-306 first"><a href="index.html" title="Home page">Home</a></li>
+<li class="menu-291 last"><a href="about" title="About">About</a></li>
+</ul>            		                  			<hr class="break"/>
+            		                		              			</div><!-- #header-links -->
+          		          		<div id="masthead" class="grid-16">
+          		    
+          		</div><!-- /masthead -->
+          		<hr class="rule-top grid-16"/>
+			</div><!-- /header-area -->
+			<hr class="break"/>
+			<div id="content-area" class="container-16">
+				<div id="content" class="grid-12">
+					<div class="breadcrumb"><a href="index.html">Home</a></div>																				          				<div id="page-headline" class="clear-block">
+    					    <h1 id="page-title" >Drupalcon San Francisco 2010, day 2</h1>    					                      				<span class="timestamp">24 Apr 2010</span>
+    					              				</div><!-- #page-headline -->
+															<div id="node-72" class="node  node-story clear-block">
+  <div class="content clear-block">
+        	<div class="node-author">Posted by admin</div>
+            <p><span class="inline inline-left"><img src="sites/peterlozano.com/files/imagecache/preview/ifa_upload/dries-gardens.jpg" alt="" title="Dries talks about Acquia Gardens"   /><span class="caption" style="width: -2px;"><strong>Dries talks about Acquia Gardens</strong></span></span></p>
+<p>Notes from my second day at Drupalcon San Francisco 2010.</p>
+<h3>Drupal Gardens: Design to online in 15 minutes</h3>
+<p>Presenters:<br />
+Dries Buytaert<br />
+Linea Rowe	</p>
+<p>By now everybody will probably have tested it, but Acquia is promoting by all means their Drupal Gardens. As Dries points out, Gardens tries to be the wordpress.com equivalent in the Drupal world, a place where you can go and create a blog or a Drupal site in an easy way and without having to program.</p>
+<p>The co-presenter, Linea Rowe, makes a review of all the features that Gardens has.</p>
+<p>One of the reasons why Dries keeps Gardens still in beta is because it's based on Drupal 7 and this still hasn't an stable release.</p>
+<p>One of the most exclusive and spectacular things implemented is the 'theme builder' which makes easy to choose a theme an customize it. The module is not public (not to be confused with <a href="http://drupal.org/project/themebuilder">themebuilder</a>) and it doesn't seem thay have any intention to make it so. Almost everyone is impressed when colors and designs change dynamically on the site. Nobody blames them for keeping that module and other tools from the public domain, otherwise anyone could build a clone of Gardens in a matter of hours, it's the same definition of 'software as a service' (SAAS).</p>
+<p>Now Dries talks about other Acquia products and the Drupal environment as a whole. All Acquia products have Acquia hosting as their base platform, he comments about how this hosting infrastructure is built, having Amazon Web Services in their lowermost layer, over them a series of custom layers have been implemented.</p>
+<p>He notes the amount demand of Drupal talent, many companies are starting with Drupal, there is a sort of boom, but it's difficult to find people with skills which already have Drupal knowledge to work as programmers, themers or even to train other people on the Drupal platform.</p>
+<p>Provision of sites in Gardens is not done with the Aegir system since it has a very changing and active development. For this Acquia has it's own system of scripts running on the Acquia hosting.</p>
+<p>Video: <a href="http://sf2010.drupal.org/conference/sessions/drupal-gardens-design-online-15-minutes" title="http://sf2010.drupal.org/conference/sessions/drupal-gardens-design-online-15-minutes">http://sf2010.drupal.org/conference/sessions/drupal-gardens-design-onlin...</a></p>
+<h3>Challenges of hosting Drupal on AWS</h3>
+<p><span class="inline inline-left"><img src="sites/peterlozano.com/files/imagecache/preview/ifa_upload/drupal-aws.jpg" alt="" title="Drupal on AWS stack"   /><span class="caption" style="width: -2px;"><strong>Drupal on AWS stack</strong></span></span></p>
+<p>Presenter:<br />
+Barry Jaspan	</p>
+<p>Since it started working I've been very interested in Amazon services (S3, C2, etc.) and have done a lot of experimentation. Hosting a Drupal site is AWS is simple, you basically need a virtual machine running and other services that are more or less complex to setup.</p>
+<p>The complex problem comes when trying to use this infrastructure with a high traffic site. It's not very different to the problem of doing it with physical machines and you have the advantage of having 'unlimited' machines to use.</p>
+<p>The first advantage, says Barry, is flexibility, starting new machines when needed, geographical distribution, been able to locate these machines in the several datacenters that Amazon has around the world.</p>
+<p>He tells the case when a client calls and says that the are about to launch a Drupal site and that it's going to have 20 million visits the first day, which is the next Monday, and they succeeded.</p>
+<p>The rest of the talk is very technical and it's better to watch the slides and note the elections that they have made with the software that composes the platform (proxies, load balancers, etc.).</p>
+<p>Video: <a href="http://sf2010.drupal.org/conference/sessions/challenges-hosting-drupal-aws" title="http://sf2010.drupal.org/conference/sessions/challenges-hosting-drupal-aws">http://sf2010.drupal.org/conference/sessions/challenges-hosting-drupal-aws</a></p>
+<h3>Strategies for Community Contributions</h3>
+<p>Ponentes:<br />
+Greg Knaddison<br />
+Eric Gundersen<br />
+Michael E. Meyers</p>
+<p>The main target of this talk is to motivate companies to contribute their work back to the community. The three presenters are members of successful companies and highlight how their only advertising has always been their contributions to the community.</p>
+<p>The first presenters talks about the distributions of their sources or revenue. Almost all of his clients come from his contributions to Drupal</p>
+<p>About 15% of his revenues comes from 'community leads'. These are people that see his modules or presentations in conferences and ask him to train their team, do customizations to modules they use, or work with their team in a join project.</p>
+<p>Another 50% of his revenue comes from 'competition', other Drupal companies that have work over their capacity and see his contributions and ask him to help them with the projects.</p>
+<p>They spend a percentage of their time to contribute and to research, some of them do a precise tracking of the time spent contributing. So, for example, if in a month they have X hours that they can dedicate to contributing they can estimate hoe many patches they can review or how many bugs in their modules they can fix in the remaining time. They even have an custom application that helps them to track this time.</p>
+<p>Eric Gundersen from Development Seed talks now. His speech is about the strategy that his company follows and he proposes it as a viable strategy for other companies.</p>
+<p>This strategy consists of focusing the target of the company in creating products. All the work that is done in client projects must serve to create products that reflect the acquired experience. This is what they have done with Open Atrium, a platform that they created for themselves and that started as a very basic application but that has accumulated the hours of work that they have worked on it on projects for clients that needed the same thing.</p>
+<p>Another good strategy for companies is what they call 'niche focus', focusing in a very specific field and become experts in that topic. For example, Gundersend's company has a very good position in the subject of handling feeds and maps (<a href="http://managingnews.com/">Managing News</a>).</p>
+<p>Video: <a href="http://sf2010.drupal.org/conference/sessions/strategies-community-contributions" title="http://sf2010.drupal.org/conference/sessions/strategies-community-contributions">http://sf2010.drupal.org/conference/sessions/strategies-community-contri...</a></p>
+<h3>HIPHOP for PHP</h3>
+<p>Ponente:<br />
+Scott MacVicar</p>
+<p>Very technical talk about HIPHOP that starts with an introduction to it and a general explanation for those that don't know it.</p>
+<p>Although it seems that the presenter hasn't planned to talk about any Drupal specific topics, people soon starts to make questions about how Drupal can be run on HIPHOP, because at this time it's not possible because Drupal uses some features of PHP that HIPHOP doesn't support (eval, sessions).</p>
+<p>Some assumptions are made about how it would be to compile Drupal using HIPHOP.</p>
+<p>HIPHOP generates an executable binary with the entire web application. This is a static binary, in the sense that it cannot dynamically load modules or external libraries, so we would have to compile the entire Drupal site with all the modules that you want to use. In case you wanted to install a new module you should add the code and recompile again.</p>
+<p>It doesn't support lazy loading either. Some of the features that the Drupal menu system has to load files only when needed would not be possible, so the compiled binary would contain all the code from all the modules used.</p>
+<p>Video: <a href="http://sf2010.drupal.org/conference/sessions/hiphop-for-php" title="http://sf2010.drupal.org/conference/sessions/hiphop-for-php">http://sf2010.drupal.org/conference/sessions/hiphop-for-php</a></p>
+<h3>Drupal hispano meeting</h3>
+<p>I have met with the group of spanish speaking people which were at Drupalcon. We were about 15, only me from Spain, the rest from latin América.</p>
+<p>We have talk a lot about how to speed up the adoption of Drupal in the hispanic world and what can we do to develop the community (drupalcamps, etc.).</p>
+<h3>Microsoft party</h3>
+<p><span class="inline inline-left"><img src="sites/peterlozano.com/files/imagecache/preview/ifa_upload/msparty.jpg" alt="" title="Microsoft party"   /><span class="caption" style="width: -2px;"><strong>Microsoft party</strong></span></span></p>
+<p>I never thought that I would have been at a Microsoft party, even less in the context of a Drupalcon.</p>
+<p>It seems Microsoft is trying hard to make a number of opensoure project, including Drupal, to work flawlessly on their web platform products (ISS and SQL Server).</p>
+<p>To sympathize with the opensource community they have put money to sponsor the Drupalcon and do things like organizing a party in a club with free drinks (only the first one) and food.</p>
+<h3>Session videos</h3>
+<p>At this time most of the sessions have their video attached in the session page, so I wont list here all that are available.</p>
+<p>You have the complete list of sessions in the <a href="http://sf2010.drupal.org/conference/schedule">schedule</a>.</p>
+<h3>Related posts</h3>
+<p><a href="http://www.brightlemon.com/blog/day-two-filling-drupalcon-sandwich" title="http://www.brightlemon.com/blog/day-two-filling-drupalcon-sandwich">http://www.brightlemon.com/blog/day-two-filling-drupalcon-sandwich</a><br />
+<a href="http://oitdesign.ncsu.edu/2010/04/21/drupalcon-2010-day-two/" title="http://oitdesign.ncsu.edu/2010/04/21/drupalcon-2010-day-two/">http://oitdesign.ncsu.edu/2010/04/21/drupalcon-2010-day-two/</a></p>
+<div class="image-clear"></div>  </div>
+      <div class="meta">
+                <div class="links"></div>
+          </div>
+  </div> <!-- node -->
+<div id="block-disqus-disqus_comments" class="block block-disqus block-content">
+    <div id="disqus_thread"></div><noscript><div class="disqus-noscript"><a href="http://peterlozano.disqus.com/?url=http%3A%2F%2Fpeterlozano.com%2Fdrupalcon-san-francisco-2010-day-2">View the discussion thread.</a></div></noscript></div><!-- /block-disqus-disqus_comments -->
+<hr class="break"/>				</div><!-- /content -->
+									<div id="left-sidebar" class="grid-4">
+					  <div id="block-block-5" class="block block-block block-left">
+    <ul class="servicelist">
+<li><a class="service drupalorg" href="http://drupal.org/user/123766" rel="me nofollow">drupal.org</a></li>
+<li><a class="service linkedin" href="http://www.linkedin.com/in/peterlozano" rel="me nofollow">LinkedIn</a></li>
+<li><a class="service twitter" href="http://www.twitter.com/peterlozano" rel="me nofollow">Twitter</a></li>
+<li><a class="service googleprofile" href="http://www.google.com/profiles/peterlozano" rel="me nofollow">Google+</a></li>
+<li><a class="service flickr" href="http://www.flickr.com/photos/peterlozano" rel="me nofollow">Flickr</a></li>
+</ul>
+</div><!-- /block-block-5 -->
+<hr class="break"/><div id="block-views-tracker-block_1" class="block block-views block-left">
+    	<h2>Recent posts</h2>
+    <div class="view view-tracker view-id-tracker view-display-id-block_1 view-dom-id-1">
+    
+  
+  
+      <div class="view-content">
+      <div class="item-list">
+    <ul>
+          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="symfony-drupal-8-related-issues-posts">Timeline of Symfony in Drupal 8 related issues and posts</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-2 views-row-even">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="barcelona-drupal-developer-days-2012-review">Barcelona Drupal Developer Days 2012 Review</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-3 views-row-odd">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="camera-drupal-instant-image-distribution">Camera to Drupal, instant image distribution</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-4 views-row-even">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="drupalcon-san-francisco-2010-day-3">Drupalcon San Francisco 2010, day 3</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-5 views-row-odd">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="drupalcon-san-francisco-2010-day-2" class="active">Drupalcon San Francisco 2010, day 2</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-6 views-row-even">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="drupalcon-san-francisco-2010-day-1">Drupalcon San Francisco 2010, day 1</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-7 views-row-odd">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="trip-san-francisco">Trip to San Francisco</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-8 views-row-even views-row-last">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="alter-drupal-behavior-using-cookies">Alter Drupal behavior using cookies</a></span>
+  </div>
+</li>
+      </ul>
+</div>    </div>
+  
+  
+  
+  
+  
+  
+</div> </div><!-- /block-views-tracker-block_1 -->
+<hr class="break"/>					</div><!-- /left-sidebar -->
+											</div><!-- /content-area -->
+			<hr class="break"/>
+			<div id="bottom-blocks" class="container-16">
+				<hr class="rule-bottom grid-16"/>
+				<div id="bottom-left" class="grid-4">
+					<div id="block-creativecommons-site_license" class="block block-creativecommons block-bottom_left">
+    
+<!--Creative Commons Site License-->
+
+<div class="creativecommons">
+		<a href="http://creativecommons.org/licenses/by/4.0/" rel="license"><img src="sites/peterlozano.com/modules/creativecommons/images/buttons/large/by.png" style="border-width: 0pt;" title="Creative Commons Attribution 4.0 International" alt="Creative Commons Attribution 4.0 International"/></a><br/>This <span rel="dc:type" href="http://purl.org/dc/dcmitype/">Work</span>, <a rel="cc:attributionURL" href="index.html" property="dc:title">Pedro Lozano</a>, is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International license</a>, although certain works referenced herein may be separately licensed.
+</div>
+<!--/Creative Commons Site License-->
+</div><!-- /block-creativecommons-site_license -->
+<hr class="break"/>				</div><!-- /bottom-left -->
+				<div id="bottom-center-left" class="grid-4">
+									</div><!-- /bottom-center-left -->
+				<div id="bottom-center-right" class="grid-4">
+									</div><!-- /bottom-center-right -->
+				<div id="bottom-right" class="grid-4">
+									</div><!-- /bottom-right -->
+			</div><!-- /bottom-blocks -->
+			<hr class="break"/>
+			<div id="footer-area" class="container-16">
+				<hr class="rule-top grid-16"/>
+				<div id="footer" class="grid-16">
+					<a href="http://drupal.org/project/nitobe">Nitobe</a> theme by <a href="http://shannonlucas.com">Shannon Lucas</a>.				</div><!-- /footer -->
+			</div><!-- /footer-area -->
+			<hr class="break"/>
+		</div><!-- /page-wrapper -->
+		<script type="text/javascript" src="sites/peterlozano.com/files/js/js_b17208f07c060289d3df9aa05980b2b5.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","dhtmlMenu":{"slide":"slide","clone":"clone"},"googleanalytics":{"trackOutgoing":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"},"disqus":{"url":"http:\/\/peterlozano.com\/drupalcon-san-francisco-2010-day-2","title":"Drupalcon San Francisco 2010, day 2","identifier":"node\/72","shortname":"peterlozano"}});
+//--><!]]>
+</script>
+		<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-9229997-1"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+	</body>
+</html>

@@ -3,51 +3,50 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:cc="http://creativecommons.org/ns#" xml:lang="en" dir="ltr">
 	<head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<title>Pedro Lozano | Drupal developer</title>
+		<title>Posts tagged with drupal-planet | Pedro Lozano (Drupal developer)</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link rel="canonical" href="index.html" />
-<meta name="keywords" content="drupal, developer, module, development, pedro lozano, blog, php" />
-<meta name="description" content="Pedro Lozano&#039;s blog, Drupal developer specialized in module programming." />
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="blogapi/rsd" />
-<style type="text/css">#masthead{background-image:url(sites/peterlozano.com/themes/nitobe/headers/drupal_balloon.jpg);}</style>
-
-<link rel="alternate" type="application/rss+xml" title="Pedro Lozano RSS" href="rss.xml" />
-<link rel="shortcut icon" href="sites/peterlozano.com/files/nitobe_favicon.ico" type="image/x-icon" />
-		<link type="text/css" rel="stylesheet" media="all" href="sites/peterlozano.com/files/css/css_ba54f4d523527251e71e27428791d634.css" />
-<link type="text/css" rel="stylesheet" media="screen" href="sites/peterlozano.com/files/css/css_b09f9ffa6d92fd67999f9b0d4fc443f7.css" />
-<link type="text/css" rel="stylesheet" media="print" href="sites/peterlozano.com/files/css/css_45fffe1b0642bf844c10a76f99134ad9.css" />
+<link rel="canonical" href="../../../tags/drupal-planet" />
+<meta name="keywords" content="drupal-planet" />
+<meta name="robots" content="noindex" />
+<link rel="alternate" type="application/rss+xml" title="RSS - drupal-planet" href="../../../tags/drupal-planet/feed" />
+<link rel="shortcut icon" href="../../../sites/peterlozano.com/files/nitobe_favicon.ico" type="image/x-icon" />
+		<link type="text/css" rel="stylesheet" media="all" href="../../../sites/peterlozano.com/files/css/css_a532775eecfa4c231ecda0e49742a497.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="../../../sites/peterlozano.com/files/css/css_b09f9ffa6d92fd67999f9b0d4fc443f7.css" />
+<link type="text/css" rel="stylesheet" media="print" href="../../../sites/peterlozano.com/files/css/css_45fffe1b0642bf844c10a76f99134ad9.css" />
+<style type="text/css">#masthead{background-image:url(../../../sites/peterlozano.com/themes/nitobe/headers/drupalcon_paris_room.jpg);}</style>
 				<!--[if lt IE 8]>
 			<link type="text/css" rel="stylesheet" media="screen" href="/sites/peterlozano.com/themes/nitobe/styles/fix-ie.css" />
 		<![endif]-->
 	</head>
-	<body class="nitobe front not-logged-in page-node one-sidebar sidebar-left i18n-en">
+	<body class="nitobe not-front not-logged-in page-taxonomy one-sidebar sidebar-left i18n-en">
 		<div id="page-wrapper" class="clear-block">
 			<div id="header-area" class="container-16">
 					<div id="title-group" class="grid-10">
-			            			            <h1 id="site-title"><a href="index.html" title="Pedro Lozano">Pedro Lozano</a></h1>			            <span id="site-slogan">Drupal developer</span>			        </div><!-- /title-group -->
+			            			            <span id="site-title"><a href="../../../index.html" title="Pedro Lozano">Pedro Lozano</a></span>			            <span id="site-slogan">Drupal developer</span>			        </div><!-- /title-group -->
 			            			        <div id="header-region" class="grid-6">
     			        	<div id="block-locale-0" class="block block-locale block-header">
-    <ul><li class="en first active"><a href="index.html" class="language-link active">English</a></li>
-<li class="es last"><a href="http://pedrolozano.es/" class="language-link">Español</a></li>
+    <ul><li class="en first active"><a href="0" class="language-link active">English</a></li>
+<li class="es last"><a href="http://pedrolozano.es/taxonomy/term/30/0" class="language-link">Español</a></li>
 </ul></div><!-- /block-locale-0 -->
 <hr class="break"/>    			        </div><!-- /header-region -->
 			        			                  		<hr class="break"/>
           		            		<div id="header-links" class="grid-16">
-            		    <ul id="primary-nav" class="grid-16"><li class="menu-306 active-trail first active"><a href="index.html" title="Home page" class="active">Home</a></li>
-<li class="menu-291 last"><a href="about" title="About">About</a></li>
+            		    <ul id="primary-nav" class="grid-16"><li class="menu-306 first"><a href="../../../index.html" title="Home page">Home</a></li>
+<li class="menu-291 last"><a href="../../../about" title="About">About</a></li>
 </ul>            		                  			<hr class="break"/>
             		                		              			</div><!-- #header-links -->
           		          		<div id="masthead" class="grid-16">
-          		    
-          		</div><!-- /masthead -->
+          		              		</div><!-- /masthead -->
           		<hr class="rule-top grid-16"/>
 			</div><!-- /header-area -->
 			<hr class="break"/>
 			<div id="content-area" class="container-16">
 				<div id="content" class="grid-12">
-																																			<div id="node-93" class="node  node-story clear-block">
+					<div class="breadcrumb"><a href="../../../index.html">Home</a></div>																				          				<div id="page-headline" class="clear-block">
+    					    <h1 id="page-title" >drupal-planet</h1>    					              				</div><!-- #page-headline -->
+															<div id="node-93" class="node  node-story clear-block">
   <div class="node-headline clear-block">
-    <h2><a href="symfony-drupal-8-related-issues-posts" rel="bookmark" title="Permanent Link to Timeline of Symfony in Drupal 8 related issues and posts">Timeline of Symfony in Drupal 8 related issues and posts</a></h2>
+    <h2><a href="../../../symfony-drupal-8-related-issues-posts" rel="bookmark" title="Permanent Link to Timeline of Symfony in Drupal 8 related issues and posts">Timeline of Symfony in Drupal 8 related issues and posts</a></h2>
             <span class="timestamp">18 Oct 2012</span>
       </div>
   <div class="content clear-block">
@@ -60,12 +59,12 @@
   </div> <!-- node -->
 <div id="node-87" class="node  node-story clear-block">
   <div class="node-headline clear-block">
-    <h2><a href="barcelona-drupal-developer-days-2012-review" rel="bookmark" title="Permanent Link to Barcelona Drupal Developer Days 2012 Review">Barcelona Drupal Developer Days 2012 Review</a></h2>
+    <h2><a href="../../../barcelona-drupal-developer-days-2012-review" rel="bookmark" title="Permanent Link to Barcelona Drupal Developer Days 2012 Review">Barcelona Drupal Developer Days 2012 Review</a></h2>
             <span class="timestamp">19 Jun 2012</span>
       </div>
   <div class="content clear-block">
         	<div class="node-author">Posted by admin</div>
-            <p style="margin: 0; float: right;"><span class="inline inline-right"><img src="sites/peterlozano.com/files/imagecache/side_image/ifa_upload/img_5626.jpg" alt="" title=""   /></span>
+            <p style="margin: 0; float: right;"><span class="inline inline-right"><img src="../../../sites/peterlozano.com/files/imagecache/side_image/ifa_upload/img_5626.jpg" alt="" title=""   /></span>
 </p>
 <p>The Drupal Developer Days was supposed to be a small event intended for Drupal european developers that wanted to just meet sharing coding ideas.</p>
 <p>But when you see:</p>
@@ -93,14 +92,14 @@
   </div> <!-- node -->
 <div id="node-75" class="node  node-story clear-block">
   <div class="node-headline clear-block">
-    <h2><a href="camera-drupal-instant-image-distribution" rel="bookmark" title="Permanent Link to Camera to Drupal, instant image distribution">Camera to Drupal, instant image distribution</a></h2>
+    <h2><a href="../../../camera-drupal-instant-image-distribution" rel="bookmark" title="Permanent Link to Camera to Drupal, instant image distribution">Camera to Drupal, instant image distribution</a></h2>
             <span class="timestamp">24 Jul 2010</span>
       </div>
   <div class="content clear-block">
         	<div class="node-author">Posted by admin</div>
             <h2>Abstract</h2>
 <p>This posts describes a method to take a picture with a digital camera (preferably a DSLR) and have it instantly uploaded to a Drupal website where it will be imported as an image node. All these steps will be done automatically and you will only need to press the shutter button of your camera for the whole process to start. Continuous shutting is also supported.</p>
-<p><span class="inline inline-none"><img src="sites/peterlozano.com/files/imagecache/preview/ifa_upload/camera2drupal.png" alt="" title="Camera to Drupal workflow"   /><span class="caption" style="width: -2px;"><strong>Camera to Drupal workflow: </strong>Trigger the whole process only by clicking the shutter of your camera.</span></span></p>
+<p><span class="inline inline-none"><img src="../../../sites/peterlozano.com/files/imagecache/preview/ifa_upload/camera2drupal.png" alt="" title="Camera to Drupal workflow"   /><span class="caption" style="width: -2px;"><strong>Camera to Drupal workflow: </strong>Trigger the whole process only by clicking the shutter of your camera.</span></span></p>
 <div class="image-clear"></div>  </div>
       <div class="meta">
                 <div class="links"></div>
@@ -108,12 +107,12 @@
   </div> <!-- node -->
 <div id="node-73" class="node  node-story clear-block">
   <div class="node-headline clear-block">
-    <h2><a href="drupalcon-san-francisco-2010-day-3" rel="bookmark" title="Permanent Link to Drupalcon San Francisco 2010, day 3">Drupalcon San Francisco 2010, day 3</a></h2>
+    <h2><a href="../../../drupalcon-san-francisco-2010-day-3" rel="bookmark" title="Permanent Link to Drupalcon San Francisco 2010, day 3">Drupalcon San Francisco 2010, day 3</a></h2>
             <span class="timestamp">30 Apr 2010</span>
       </div>
   <div class="content clear-block">
         	<div class="node-author">Posted by admin</div>
-            <p><span class="inline inline-left"><img src="sites/peterlozano.com/files/imagecache/preview/ifa_upload/IMG_4078.jpg" alt="" title="Flags at the Moscone Center entrance"   /><span class="caption" style="width: -2px;"><strong>Flags at the Moscone Center entrance</strong></span></span></p>
+            <p><span class="inline inline-left"><img src="../../../sites/peterlozano.com/files/imagecache/preview/ifa_upload/IMG_4078.jpg" alt="" title="Flags at the Moscone Center entrance"   /><span class="caption" style="width: -2px;"><strong>Flags at the Moscone Center entrance</strong></span></span></p>
 <p>Third and last day of Drupalcon, we continue to see interesting things.</p>
 <div class="image-clear"></div>  </div>
       <div class="meta">
@@ -122,12 +121,12 @@
   </div> <!-- node -->
 <div id="node-72" class="node  node-story clear-block">
   <div class="node-headline clear-block">
-    <h2><a href="drupalcon-san-francisco-2010-day-2" rel="bookmark" title="Permanent Link to Drupalcon San Francisco 2010, day 2">Drupalcon San Francisco 2010, day 2</a></h2>
+    <h2><a href="../../../drupalcon-san-francisco-2010-day-2" rel="bookmark" title="Permanent Link to Drupalcon San Francisco 2010, day 2">Drupalcon San Francisco 2010, day 2</a></h2>
             <span class="timestamp">24 Apr 2010</span>
       </div>
   <div class="content clear-block">
         	<div class="node-author">Posted by admin</div>
-            <p><span class="inline inline-left"><img src="sites/peterlozano.com/files/imagecache/preview/ifa_upload/dries-gardens.jpg" alt="" title="Dries talks about Acquia Gardens"   /><span class="caption" style="width: -2px;"><strong>Dries talks about Acquia Gardens</strong></span></span></p>
+            <p><span class="inline inline-left"><img src="../../../sites/peterlozano.com/files/imagecache/preview/ifa_upload/dries-gardens.jpg" alt="" title="Dries talks about Acquia Gardens"   /><span class="caption" style="width: -2px;"><strong>Dries talks about Acquia Gardens</strong></span></span></p>
 <p>Notes from my second day at Drupalcon San Francisco 2010.</p>
 <div class="image-clear"></div>  </div>
       <div class="meta">
@@ -136,53 +135,16 @@
   </div> <!-- node -->
 <div id="node-71" class="node  node-story clear-block">
   <div class="node-headline clear-block">
-    <h2><a href="drupalcon-san-francisco-2010-day-1" rel="bookmark" title="Permanent Link to Drupalcon San Francisco 2010, day 1">Drupalcon San Francisco 2010, day 1</a></h2>
+    <h2><a href="../../../drupalcon-san-francisco-2010-day-1" rel="bookmark" title="Permanent Link to Drupalcon San Francisco 2010, day 1">Drupalcon San Francisco 2010, day 1</a></h2>
             <span class="timestamp">24 Apr 2010</span>
       </div>
   <div class="content clear-block">
         	<div class="node-author">Posted by admin</div>
-            <p><span class="inline inline-left"><img src="sites/peterlozano.com/files/imagecache/preview/ifa_upload/showrom_blended_fused.jpg" alt="" title="Main conference room"   /><span class="caption" style="width: -2px;"><strong>Main conference room</strong></span></span></p>
+            <p><span class="inline inline-left"><img src="../../../sites/peterlozano.com/files/imagecache/preview/ifa_upload/showrom_blended_fused.jpg" alt="" title="Main conference room"   /><span class="caption" style="width: -2px;"><strong>Main conference room</strong></span></span></p>
 <p>Although first day of Drupalcon is officially on Monday, the Sunday you could register and there were some activites.</p>
 <p>The conference venue was the Moscone Center, composed of several buildings. In one of them regularly takes place the Apple Developer Conference, where Steve Jobs uses to present it's latest 'one more things'. We were at Moscone south, a building more similar to an airport in size and design.</p>
 <p>The welcome pack was the poorest of the several Drupalcons I've been to, it consisted of a little book with sponsors marketing, session schedule and a guide to eating around the conference venue.</p>
 <div class="image-clear"></div>  </div>
-      <div class="meta">
-                <div class="links"></div>
-          </div>
-  </div> <!-- node -->
-<div id="node-55" class="node  node-story clear-block">
-  <div class="node-headline clear-block">
-    <h2><a href="trip-san-francisco" rel="bookmark" title="Permanent Link to Trip to San Francisco">Trip to San Francisco</a></h2>
-            <span class="timestamp">19 Apr 2010</span>
-      </div>
-  <div class="content clear-block">
-        	<div class="node-author">Posted by admin</div>
-            <p><span class="inline inline-left"><img src="sites/peterlozano.com/files/imagecache/preview/ifa_upload/IMG_3784.jpg" alt="" title="San Francisco streets"   /><span class="caption" style="width: -2px;"><strong>San Francisco streets</strong></span></span></p>
-<p>Putting aside the main subject of my blog which is programming, I'm going to tell a little bit how my trip so San Francisco has gone so far.</p>
-<div class="image-clear"></div>  </div>
-      <div class="meta">
-                <div class="links"></div>
-          </div>
-  </div> <!-- node -->
-<div id="node-41" class="node  node-story clear-block">
-  <div class="node-headline clear-block">
-    <h2><a href="alter-drupal-behavior-using-cookies" rel="bookmark" title="Permanent Link to Alter Drupal behavior using cookies">Alter Drupal behavior using cookies</a></h2>
-            <span class="timestamp">14 Nov 2009</span>
-      </div>
-  <div class="content clear-block">
-        	<div class="node-author">Posted by Pedro Lozano</div>
-            <p>A little trick I started using recently: using cookies to alter Drupal behavior when navigating the site (usually developing or debugging) with a shared user account that should present a different behavior to the rest of the people.</p>
-<p>Use case. A few developers may be building a site and they all use the admin account for setup tasks. Now one of them doesn't want to see url aliases because he needs to see node ids in urls for debugging purposes.</p>
-<p>You could put a code like this in settings.php:</p>
-<p><pre>
-function custom_url_rewrite_outbound(&amp;$path, &amp;$options, $original_path) {
-  if ($_COOKIE['disable_url_aliases']) {
-    $path = $original_path;
-  }
-}
-</pre></p>
-<p>Now, using a Firefox extension like <a href="https://addons.mozilla.org/en-US/firefox/addon/6683">Firecookie</a> or <a href="https://addons.mozilla.org/en-US/firefox/addon/60">Web Developer</a>, you can add a cookie called <strong>disable_url_aliases</strong>  in your browser that will disable url aliases only for you, the rest of the developers won't notice.</p>
-  </div>
       <div class="meta">
                 <div class="links"></div>
           </div>
@@ -209,42 +171,42 @@ function custom_url_rewrite_outbound(&amp;$path, &amp;$options, $original_path) 
     <ul>
           <li class="views-row views-row-1 views-row-odd views-row-first">  
   <div class="views-field-title">
-                <span class="field-content"><a href="symfony-drupal-8-related-issues-posts">Timeline of Symfony in Drupal 8 related issues and posts</a></span>
+                <span class="field-content"><a href="../../../symfony-drupal-8-related-issues-posts">Timeline of Symfony in Drupal 8 related issues and posts</a></span>
   </div>
 </li>
           <li class="views-row views-row-2 views-row-even">  
   <div class="views-field-title">
-                <span class="field-content"><a href="barcelona-drupal-developer-days-2012-review">Barcelona Drupal Developer Days 2012 Review</a></span>
+                <span class="field-content"><a href="../../../barcelona-drupal-developer-days-2012-review">Barcelona Drupal Developer Days 2012 Review</a></span>
   </div>
 </li>
           <li class="views-row views-row-3 views-row-odd">  
   <div class="views-field-title">
-                <span class="field-content"><a href="camera-drupal-instant-image-distribution">Camera to Drupal, instant image distribution</a></span>
+                <span class="field-content"><a href="../../../camera-drupal-instant-image-distribution">Camera to Drupal, instant image distribution</a></span>
   </div>
 </li>
           <li class="views-row views-row-4 views-row-even">  
   <div class="views-field-title">
-                <span class="field-content"><a href="drupalcon-san-francisco-2010-day-3">Drupalcon San Francisco 2010, day 3</a></span>
+                <span class="field-content"><a href="../../../drupalcon-san-francisco-2010-day-3">Drupalcon San Francisco 2010, day 3</a></span>
   </div>
 </li>
           <li class="views-row views-row-5 views-row-odd">  
   <div class="views-field-title">
-                <span class="field-content"><a href="drupalcon-san-francisco-2010-day-2">Drupalcon San Francisco 2010, day 2</a></span>
+                <span class="field-content"><a href="../../../drupalcon-san-francisco-2010-day-2">Drupalcon San Francisco 2010, day 2</a></span>
   </div>
 </li>
           <li class="views-row views-row-6 views-row-even">  
   <div class="views-field-title">
-                <span class="field-content"><a href="drupalcon-san-francisco-2010-day-1">Drupalcon San Francisco 2010, day 1</a></span>
+                <span class="field-content"><a href="../../../drupalcon-san-francisco-2010-day-1">Drupalcon San Francisco 2010, day 1</a></span>
   </div>
 </li>
           <li class="views-row views-row-7 views-row-odd">  
   <div class="views-field-title">
-                <span class="field-content"><a href="trip-san-francisco">Trip to San Francisco</a></span>
+                <span class="field-content"><a href="../../../trip-san-francisco">Trip to San Francisco</a></span>
   </div>
 </li>
           <li class="views-row views-row-8 views-row-even views-row-last">  
   <div class="views-field-title">
-                <span class="field-content"><a href="alter-drupal-behavior-using-cookies">Alter Drupal behavior using cookies</a></span>
+                <span class="field-content"><a href="../../../alter-drupal-behavior-using-cookies">Alter Drupal behavior using cookies</a></span>
   </div>
 </li>
       </ul>
@@ -267,7 +229,7 @@ function custom_url_rewrite_outbound(&amp;$path, &amp;$options, $original_path) 
 <!--Creative Commons Site License-->
 
 <div class="creativecommons">
-		<a href="http://creativecommons.org/licenses/by/4.0/" rel="license"><img src="sites/peterlozano.com/modules/creativecommons/images/buttons/large/by.png" style="border-width: 0pt;" title="Creative Commons Attribution 4.0 International" alt="Creative Commons Attribution 4.0 International"/></a><br/>This <span rel="dc:type" href="http://purl.org/dc/dcmitype/">Work</span>, <a rel="cc:attributionURL" href="index.html" property="dc:title">Pedro Lozano</a>, is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International license</a>, although certain works referenced herein may be separately licensed.
+		<a href="http://creativecommons.org/licenses/by/4.0/" rel="license"><img src="../../../sites/peterlozano.com/modules/creativecommons/images/buttons/large/by.png" style="border-width: 0pt;" title="Creative Commons Attribution 4.0 International" alt="Creative Commons Attribution 4.0 International"/></a><br/>This <span rel="dc:type" href="http://purl.org/dc/dcmitype/">Work</span>, <a rel="cc:attributionURL" href="../../../index.html" property="dc:title">Pedro Lozano</a>, is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International license</a>, although certain works referenced herein may be separately licensed.
 </div>
 <!--/Creative Commons Site License-->
 </div><!-- /block-creativecommons-site_license -->
@@ -287,7 +249,7 @@ function custom_url_rewrite_outbound(&amp;$path, &amp;$options, $original_path) 
 			</div><!-- /footer-area -->
 			<hr class="break"/>
 		</div><!-- /page-wrapper -->
-		<script type="text/javascript" src="sites/peterlozano.com/files/js/js_b17208f07c060289d3df9aa05980b2b5.js"></script>
+		<script type="text/javascript" src="../../../sites/peterlozano.com/files/js/js_b17208f07c060289d3df9aa05980b2b5.js"></script>
 <script type="text/javascript">
 <!--//--><![CDATA[//><!--
 jQuery.extend(Drupal.settings, {"basePath":"\/","dhtmlMenu":{"slide":"slide","clone":"clone"},"googleanalytics":{"trackOutgoing":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"},"disqusCommentDomain":"peterlozano"});

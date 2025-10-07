@@ -1,0 +1,235 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+    "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:cc="http://creativecommons.org/ns#" xml:lang="en" dir="ltr">
+	<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Drupalcon San Francisco 2010, day 1 | Pedro Lozano | Drupal developer</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="canonical" href="drupalcon-san-francisco-2010-day-1" />
+<meta name="keywords" content="conference, drupal, drupal-planet, drupalcon" />
+<meta name="description" content="Summary of the fist day of sessions in Drupalcon San Francisco 2010." />
+<style type="text/css">#masthead{background-image:url(sites/peterlozano.com/themes/nitobe/headers/drupalcon-keynote-room.jpg);}</style>
+
+<link rel="shortcut icon" href="sites/peterlozano.com/files/nitobe_favicon.ico" type="image/x-icon" />
+		<link type="text/css" rel="stylesheet" media="all" href="sites/peterlozano.com/files/css/css_8f9c184bc14eb20de6daec1cce00ca0e.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="sites/peterlozano.com/files/css/css_b09f9ffa6d92fd67999f9b0d4fc443f7.css" />
+<link type="text/css" rel="stylesheet" media="print" href="sites/peterlozano.com/files/css/css_45fffe1b0642bf844c10a76f99134ad9.css" />
+				<!--[if lt IE 8]>
+			<link type="text/css" rel="stylesheet" media="screen" href="/sites/peterlozano.com/themes/nitobe/styles/fix-ie.css" />
+		<![endif]-->
+	</head>
+	<body class="nitobe not-front not-logged-in page-node node-type-story one-sidebar sidebar-left i18n-en">
+		<div id="page-wrapper" class="clear-block">
+			<div id="header-area" class="container-16">
+					<div id="title-group" class="grid-10">
+			            			            <span id="site-title"><a href="index.html" title="Pedro Lozano">Pedro Lozano</a></span>			            <span id="site-slogan">Drupal developer</span>			        </div><!-- /title-group -->
+			            			        <div id="header-region" class="grid-6">
+    			        	<div id="block-locale-0" class="block block-locale block-header">
+    <ul><li class="en first active"><a href="drupalcon-san-francisco-2010-day-1" class="language-link active">English</a></li>
+<li class="es last"><a href="http://pedrolozano.es/drupalcon-san-francisco-2010-dia-1" class="language-link">Español</a></li>
+</ul></div><!-- /block-locale-0 -->
+<hr class="break"/>    			        </div><!-- /header-region -->
+			        			                  		<hr class="break"/>
+          		            		<div id="header-links" class="grid-16">
+            		    <ul id="primary-nav" class="grid-16"><li class="menu-306 first"><a href="index.html" title="Home page">Home</a></li>
+<li class="menu-291 last"><a href="about" title="About">About</a></li>
+</ul>            		                  			<hr class="break"/>
+            		                		              			</div><!-- #header-links -->
+          		          		<div id="masthead" class="grid-16">
+          		    
+          		</div><!-- /masthead -->
+          		<hr class="rule-top grid-16"/>
+			</div><!-- /header-area -->
+			<hr class="break"/>
+			<div id="content-area" class="container-16">
+				<div id="content" class="grid-12">
+					<div class="breadcrumb"><a href="index.html">Home</a></div>																				          				<div id="page-headline" class="clear-block">
+    					    <h1 id="page-title" >Drupalcon San Francisco 2010, day 1</h1>    					                      				<span class="timestamp">24 Apr 2010</span>
+    					              				</div><!-- #page-headline -->
+															<div id="node-71" class="node  node-story clear-block">
+  <div class="content clear-block">
+        	<div class="node-author">Posted by admin</div>
+            <p><span class="inline inline-left"><img src="sites/peterlozano.com/files/imagecache/preview/ifa_upload/showrom_blended_fused.jpg" alt="" title="Main conference room"   /><span class="caption" style="width: -2px;"><strong>Main conference room</strong></span></span></p>
+<p>Although first day of Drupalcon is officially on Monday, the Sunday you could register and there were some activites.</p>
+<p>The conference venue was the Moscone Center, composed of several buildings. In one of them regularly takes place the Apple Developer Conference, where Steve Jobs uses to present it's latest 'one more things'. We were at Moscone south, a building more similar to an airport in size and design.</p>
+<p>The welcome pack was the poorest of the several Drupalcons I've been to, it consisted of a little book with sponsors marketing, session schedule and a guide to eating around the conference venue.</p>
+<h3>Unconference</h3>
+<p>There was a series of non-planed sessions not necessarily related to Drupal, although most of them were. It basically was people from several companies showing some innovations and projects in very specific fields. There were very little attendees which allowed to extended debates at the end of the sessions between presenters and attendees.</p>
+<p>One of the sessions that I (partly) assisted was about image recognition and classification. They had a Drupal site that was capable of recognizing image similarities, find differences, classify them by similitude, and things like that.</p>
+<p>The wifi connection was really good in any place of the center, although there were very little people. Will it handle the near 3000 people tomorrow?</p>
+<p>In the evening I went to visit Chinatown, awesome experience.</p>
+<h3>First (official) day of Drupalcon</h3>
+<p>It was the first time that I think it may be too many people in a Drupalcon, the company stands were full of people and I was not allowed to enter some sessions because the room was full.</p>
+<p>The first session was the only one at that hour, a presentation to which almost everyone assisted.</p>
+<h3>Getting started with Drupal(con)</h3>
+<p>Presenters: a lot (see session page).</p>
+<p>There wasn't room for everyone in the main room so they have setup two more rooms with video streaming from the main room. The presenter asked to raise hands everyone that was new to Drupalcon and those who were new to Drupal in the last year. In both cases a lot of hands were raised.</p>
+<p>Presenters of this session spoke in turns, each introduced one basic aspect of Drupal. Core, cck, views, taxonomy, etc. The session was too introductory so there isn't much more to tell.</p>
+<h3>The Heart of Open Atrium: Context, PURL and Spaces</h3>
+<p>Presenter:<br />
+Young Hahn</p>
+<p>Young Hahn, from Development Seed, presents their strategic modules that they use to build their products, being some of their flagship products Open Atrium and Managing News, created from their experience with clients. Notably, all their modules are published in drupal.org, so we can all use them and it serves as an invaluable promotion for them.</p>
+<p>This a rather technical session and probably hard to follow if you don't have previous experience developing Drupal sites. The combination of modules tries to find a general solution to some of the most common problem that they find in each project. Ej: preserving context (menus, blocks, theme, etc.).</p>
+<p>The modules explained where Context, PURL and Spaces. You can read a short introduction to them and watch the session video on the session page.</p>
+<p>Session page: <a href="http://sf2010.drupal.org/conference/sessions/heart-open-atrium-context-purl-and-spaces" title="http://sf2010.drupal.org/conference/sessions/heart-open-atrium-context-purl-and-spaces">http://sf2010.drupal.org/conference/sessions/heart-open-atrium-context-p...</a>.</p>
+<h3>Dries Keynote</h3>
+<p><span class="inline inline-left"><img src="sites/peterlozano.com/files/imagecache/preview/ifa_upload/dries-mortendk_blended_fused.png" alt="" title="Dries keynote"   /><span class="caption" style="width: -2px;"><strong>Dries keynote</strong></span></span></p>
+<p>The near 3000 people is coming in a huge room. I ask myself how many Boeing 747 could you fit in this room, someone comments that it doubles as a storm shelter (<a href="http://twitter.com/mrf/status/12473605625" title="http://twitter.com/mrf/status/12473605625">http://twitter.com/mrf/status/12473605625</a>).</p>
+<p>Dries jumps to the stage, long applause. He does the usual remembering of the first Drupalcons and notes that when he created Drupal he though that no more than ten people will ever use it.</p>
+<p>He sends greetings to all those that got stuck in Europe because of the volcano event. Seems like mini-drupalcons have been organized in several cities in which attendants meet to watch the live webcast and share notes. The map of <a href="http://maps.google.com/maps/ms?ie=UTF8&amp;hl=en&amp;source=embed&amp;msa=0&amp;msid=103643908557801084137.0004846f1ed76e97dbd82&amp;ll=52.106505,19.6875&amp;spn=73.07672,177.714844&amp;z=3">those stuck in Europe</a> shows in the screen.</p>
+<p>Announcement of the day, Drupal 8 development will be in git, rip to CVS.</p>
+<p>He talks now about RDF and the semantic web. It's something that Dries has given importance in the last Drupalcons, it seems that from Drupal 7 it will have an important role because it could be the first CMS that comes with an API an related modules in core that allow to create sites with RDF metadata. He puts some use cases: an online shop could tag its products with RDF that allows search engines to list them as products with associated metadata, it will perfectly know what is the proce, the product description, the picture, etc., without having to parse the text and use its algorithms to guess all this info.</p>
+<p>Dries plays a video in which a woman's voice explains what RDF is while the screen displays some slides.</p>
+<p>He shows some statistics about critical bugs pending to release Drupal 7, 112, no much less that there were 6 months ago in Paris. At this speed rate they will be all done by June, December in the works case. He proposes to form 100 groups of 30 people (we are 3000) and each group will solve an issue, so we could have all tickets closed in an hour. People laugh, he says "seriously"!</p>
+<p>According to Drupal 7 stats, there have been more than 700 people contributing patches to this version, but they show that 50% of the code has been written by only 25 persons. He shows a slide with the 20 most active contributors to Drupal core and their supporting organizations (<a href="http://www.flickr.com/photos/peterlozano/4536272012/">foto</a>).</p>
+<p>He announces that the next Drupalcon will be at <a href="http://cph2010.drupal.org/">Copenhagen</a>. You an sign up at their web already.</p>
+<p>He also talks about how some big names (IBM, Microsoft) have been involved in big projects related to Drupal, although many of these projects are private. He notes that Microsoft is going to launch a new PDO driver for SQL Server and that they have a important commitment to make Drupal run in Microsoft's web platforms. There has even have a Microsoft party in the night.</p>
+<h3>Objetifiyng PHP</h3>
+<p>Presenter: Larry Gardfield</p>
+<p>Talk 100% about programming. In Drupal 6 we already have some modules that have introduced objects in their code (views, panels, … I cannot think of any which is not from merlinofchaos) and in Drupal 7 we have some layer of core objectified.</p>
+<p>He does a review of the best practices when working with objects, like: use factory classes (pizzahut) instead of using object classes (pizza).</p>
+<p>A slide notes the fuzziness of the Drupal architecture, different layers of the API overlap and are mixed, we have to build precise boundaries between the subsystems, and that's where OOP plays an important role, proposing to convert each core subsystem in an object. The code is interesting, we could do things like $menu->get_item('"http://sf2010.drupal.org/conference/sessions/objectifying-php" title="http://sf2010.drupal.org/conference/sessions/objectifying-php">http://sf2010.drupal.org/conference/sessions/objectifying-php</a></p>
+<h3>Drupal as a web services platform using the Services module</h3>
+<p>A security guy in the door didn't let me in because the room is full. Re-scheduling.</p>
+<h3>Going Vertical: How niche marketing can launch your Drupal business</h3>
+<p>Presenter: Corey Smith</p>
+<p>Very business oriented talk given by a marketing guy.</p>
+<p>He comments about the topic of how focusing your company in a very specific field can launch your company to success, because clients use to look for the most experienced company when doing a project of an specific nature.</p>
+<p>Session page: <a href="http://sf2010.drupal.org/conference/sessions/going-vertical-how-niche-marketing-can-launch-your-drupal-business" title="http://sf2010.drupal.org/conference/sessions/going-vertical-how-niche-marketing-can-launch-your-drupal-business">http://sf2010.drupal.org/conference/sessions/going-vertical-how-niche-ma...</a></p>
+<h3>Notes and links</h3>
+<p>Some of the sessions have been recorded on video:</p>
+<p><a href="http://sf2010.drupal.org/conference/sessions/getting-started-drupalcon" title="http://sf2010.drupal.org/conference/sessions/getting-started-drupalcon">http://sf2010.drupal.org/conference/sessions/getting-started-drupalcon</a><br />
+<a href="http://sf2010.drupal.org/conference/sessions/php-designers" title="http://sf2010.drupal.org/conference/sessions/php-designers">http://sf2010.drupal.org/conference/sessions/php-designers</a><br />
+<a href="http://sf2010.drupal.org/conference/sessions/beginning-drupal" title="http://sf2010.drupal.org/conference/sessions/beginning-drupal">http://sf2010.drupal.org/conference/sessions/beginning-drupal</a><br />
+<a href="http://sf2010.drupal.org/conference/sessions/state-drupal-web-application-product-platform" title="http://sf2010.drupal.org/conference/sessions/state-drupal-web-application-product-platform">http://sf2010.drupal.org/conference/sessions/state-drupal-web-applicatio...</a><br />
+<a href="http://sf2010.drupal.org/conference/sessions/theme-preprocess-functions-introduction" title="http://sf2010.drupal.org/conference/sessions/theme-preprocess-functions-introduction">http://sf2010.drupal.org/conference/sessions/theme-preprocess-functions-...</a><br />
+<a href="http://sf2010.drupal.org/conference/sessions/state-panels-3-and-more-what-you-love" title="http://sf2010.drupal.org/conference/sessions/state-panels-3-and-more-what-you-love">http://sf2010.drupal.org/conference/sessions/state-panels-3-and-more-wha...</a><br />
+<a href="http://sf2010.drupal.org/conference/sessions/theming-fusion-new-approach-layout-and-modular-styles" title="http://sf2010.drupal.org/conference/sessions/theming-fusion-new-approach-layout-and-modular-styles">http://sf2010.drupal.org/conference/sessions/theming-fusion-new-approach...</a><br />
+<a href="http://sf2010.drupal.org/conference/sessions/objectifying-php" title="http://sf2010.drupal.org/conference/sessions/objectifying-php">http://sf2010.drupal.org/conference/sessions/objectifying-php</a></p>
+<p><strong>Update:</strong> by now most or all sessions' videos have been uploaded.</p>
+<p>Relared post in other blogs of first day attendants:</p>
+<p><a href="http://oitdesign.ncsu.edu/2010/04/20/drupalcon-2010-day-one/" title="http://oitdesign.ncsu.edu/2010/04/20/drupalcon-2010-day-one/">http://oitdesign.ncsu.edu/2010/04/20/drupalcon-2010-day-one/</a><br />
+<a href="http://blog.nethazard.net/first-day-at-drupalcon-san-francisco-2010/" title="http://blog.nethazard.net/first-day-at-drupalcon-san-francisco-2010/">http://blog.nethazard.net/first-day-at-drupalcon-san-francisco-2010/</a><br />
+<a href="http://www.dragonwellmedia.com/" title="http://www.dragonwellmedia.com/">http://www.dragonwellmedia.com/"http://www.jcfiala.net/blog/2010/04/19/drupalcon-sf-first-day-thoughts" title="http://www.jcfiala.net/blog/2010/04/19/drupalcon-sf-first-day-thoughts">http://www.jcfiala.net/blog/2010/04/19/drupalcon-sf-first-day-thoughts</a></p>
+<p>Drupalcon Copenhagen website: <a href="http://cph2010.drupal.org/" title="http://cph2010.drupal.org/">http://cph2010.drupal.org/</a></p>
+<p><a href="http://maps.google.com/maps/ms?ie=UTF8&amp;hl=en&amp;source=embed&amp;msa=0&amp;msid=103643908557801084137.0004846f1ed76e97dbd82&amp;ll=52.106505,19.6875&amp;spn=73.07672,177.714844&amp;z=3">Map of people stuck in Europe because of the volcano.</a></p>
+<div class="image-clear"></div>  </div>
+      <div class="meta">
+                <div class="links"></div>
+          </div>
+  </div> <!-- node -->
+<div id="block-disqus-disqus_comments" class="block block-disqus block-content">
+    <div id="disqus_thread"></div><noscript><div class="disqus-noscript"><a href="http://peterlozano.disqus.com/?url=http%3A%2F%2Fpeterlozano.com%2Fdrupalcon-san-francisco-2010-day-1">View the discussion thread.</a></div></noscript></div><!-- /block-disqus-disqus_comments -->
+<hr class="break"/>				</div><!-- /content -->
+									<div id="left-sidebar" class="grid-4">
+					  <div id="block-block-5" class="block block-block block-left">
+    <ul class="servicelist">
+<li><a class="service drupalorg" href="http://drupal.org/user/123766" rel="me nofollow">drupal.org</a></li>
+<li><a class="service linkedin" href="http://www.linkedin.com/in/peterlozano" rel="me nofollow">LinkedIn</a></li>
+<li><a class="service twitter" href="http://www.twitter.com/peterlozano" rel="me nofollow">Twitter</a></li>
+<li><a class="service googleprofile" href="http://www.google.com/profiles/peterlozano" rel="me nofollow">Google+</a></li>
+<li><a class="service flickr" href="http://www.flickr.com/photos/peterlozano" rel="me nofollow">Flickr</a></li>
+</ul>
+</div><!-- /block-block-5 -->
+<hr class="break"/><div id="block-views-tracker-block_1" class="block block-views block-left">
+    	<h2>Recent posts</h2>
+    <div class="view view-tracker view-id-tracker view-display-id-block_1 view-dom-id-1">
+    
+  
+  
+      <div class="view-content">
+      <div class="item-list">
+    <ul>
+          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="symfony-drupal-8-related-issues-posts">Timeline of Symfony in Drupal 8 related issues and posts</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-2 views-row-even">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="barcelona-drupal-developer-days-2012-review">Barcelona Drupal Developer Days 2012 Review</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-3 views-row-odd">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="camera-drupal-instant-image-distribution">Camera to Drupal, instant image distribution</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-4 views-row-even">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="drupalcon-san-francisco-2010-day-3">Drupalcon San Francisco 2010, day 3</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-5 views-row-odd">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="drupalcon-san-francisco-2010-day-2">Drupalcon San Francisco 2010, day 2</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-6 views-row-even">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="drupalcon-san-francisco-2010-day-1" class="active">Drupalcon San Francisco 2010, day 1</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-7 views-row-odd">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="trip-san-francisco">Trip to San Francisco</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-8 views-row-even views-row-last">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="alter-drupal-behavior-using-cookies">Alter Drupal behavior using cookies</a></span>
+  </div>
+</li>
+      </ul>
+</div>    </div>
+  
+  
+  
+  
+  
+  
+</div> </div><!-- /block-views-tracker-block_1 -->
+<hr class="break"/>					</div><!-- /left-sidebar -->
+											</div><!-- /content-area -->
+			<hr class="break"/>
+			<div id="bottom-blocks" class="container-16">
+				<hr class="rule-bottom grid-16"/>
+				<div id="bottom-left" class="grid-4">
+					<div id="block-creativecommons-site_license" class="block block-creativecommons block-bottom_left">
+    
+<!--Creative Commons Site License-->
+
+<div class="creativecommons">
+		<a href="http://creativecommons.org/licenses/by/4.0/" rel="license"><img src="sites/peterlozano.com/modules/creativecommons/images/buttons/large/by.png" style="border-width: 0pt;" title="Creative Commons Attribution 4.0 International" alt="Creative Commons Attribution 4.0 International"/></a><br/>This <span rel="dc:type" href="http://purl.org/dc/dcmitype/">Work</span>, <a rel="cc:attributionURL" href="index.html" property="dc:title">Pedro Lozano</a>, is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International license</a>, although certain works referenced herein may be separately licensed.
+</div>
+<!--/Creative Commons Site License-->
+</div><!-- /block-creativecommons-site_license -->
+<hr class="break"/>				</div><!-- /bottom-left -->
+				<div id="bottom-center-left" class="grid-4">
+									</div><!-- /bottom-center-left -->
+				<div id="bottom-center-right" class="grid-4">
+									</div><!-- /bottom-center-right -->
+				<div id="bottom-right" class="grid-4">
+									</div><!-- /bottom-right -->
+			</div><!-- /bottom-blocks -->
+			<hr class="break"/>
+			<div id="footer-area" class="container-16">
+				<hr class="rule-top grid-16"/>
+				<div id="footer" class="grid-16">
+					<a href="http://drupal.org/project/nitobe">Nitobe</a> theme by <a href="http://shannonlucas.com">Shannon Lucas</a>.				</div><!-- /footer -->
+			</div><!-- /footer-area -->
+			<hr class="break"/>
+		</div><!-- /page-wrapper -->
+		<script type="text/javascript" src="sites/peterlozano.com/files/js/js_b17208f07c060289d3df9aa05980b2b5.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","dhtmlMenu":{"slide":"slide","clone":"clone"},"googleanalytics":{"trackOutgoing":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"},"disqus":{"url":"http:\/\/peterlozano.com\/drupalcon-san-francisco-2010-day-1","title":"Drupalcon San Francisco 2010, day 1","identifier":"node\/71","shortname":"peterlozano"}});
+//--><!]]>
+</script>
+		<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-9229997-1"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+	</body>
+</html>

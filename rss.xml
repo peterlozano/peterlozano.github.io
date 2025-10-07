@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base=""  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Pedro Lozano</title>
+ <link></link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>Timeline of Symfony in Drupal 8 related issues and posts</title>
+ <link>/symfony-drupal-8-related-issues-posts</link>
+ <description>&lt;p&gt;In preparation for &lt;a href=&quot;http://2012.drupalcamp.es/es/sesiones/symfony-en-drupal-8-los-detalles-101&quot;&gt;my talk at Drupalcamp Spain 2012 about Symfony in Drupal 8&lt;/a&gt; I made a list of some relevant issues and posts related to the topic. In pretty much chronological order.&lt;/p&gt;&lt;p&gt;
+&lt;/p&gt;
+
+&lt;h3&gt;TIMELINE&lt;/h3&gt;&lt;p&gt;
+&lt;/p&gt;
+
+&lt;h4&gt;April 2010&lt;/h4&gt;&lt;p&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://groups.drupal.org/"/tags/drupal">drupal</category>
+ <category domain="/tags/drupal-planet">drupal-planet</category>
+ <category domain="/tags/drupalorg">drupal.org</category>
+ <category domain="/tags/issues">issues</category>
+ <category domain="/tags/posts">posts</category>
+ <category domain="/tags/symfony">symfony</category>
+ <pubDate>Thu, 18 Oct 2012 19:56:37 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">93 at </guid>
+</item>
+<item>
+ <title>Barcelona Drupal Developer Days 2012 Review</title>
+ <link>/barcelona-drupal-developer-days-2012-review</link>
+ <description>&lt;p style=&quot;margin: 0; float: right;&quot;&gt;&lt;span class=&quot;inline inline-right&quot;&gt;&lt;img src=&quot;/sites/peterlozano.com/files/imagecache/side_image/ifa_upload/img_5626.jpg&quot; alt=&quot;&quot; title=&quot;&quot;   /&gt;&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;The Drupal Developer Days was supposed to be a small event intended for Drupal european developers that wanted to just meet sharing coding ideas.&lt;/p&gt;
+&lt;p&gt;But when you see:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt; More than 300 drupal developers from several continents, where you can find big names like:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://drupal.org/user/24967&quot;&gt;Angie Byron&lt;/a&gt; (&lt;a href=&quot;http://twitter.com/webchick&quot;&gt;@webchick&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://drupal.org/user/26979&quot;&gt;Earl Miles&lt;/a&gt; (&lt;a href=&quot;http://twitter.com/merlinofchaos&quot;&gt;@merlinofchaos&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://drupal.org/user/4166&quot;&gt;Gábor Hojtsy&lt;/a&gt; (&lt;a href=&quot;http://twitter.com/gaborhojtsy&quot;&gt;@gaborhojtsy&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://drupal.org/user/54136&quot;&gt;Daniel Kudwien&lt;/a&gt; (&lt;a href=&quot;http://twitter.com/tha_sun&quot;&gt;@tha_sun&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://drupal.org/user/4299&quot;&gt;Jose Reyero&lt;/a&gt; (&lt;a href=&quot;https://twitter.com/josereyero&quot;&gt;@josereyero&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://drupal.org/user/16747&quot;&gt;Wolfgang Ziegler&lt;/a&gt;(&lt;a href=&quot;http://twitter.com/the_real_fago&quot;&gt;@the_real_fago&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;and &lt;a href=&quot;http://drupal.org/user/86106&quot;&gt;Bojan Zivanovic&lt;/a&gt; (&lt;a href=&quot;http://twitter.com/bojan_zivanovic&quot;&gt;@bojan_zivanovic&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt; 7 Drupal Core sprints lasting the whole week&lt;/li&gt;
+&lt;li&gt; and more than 30 technical session&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;then you start to think that this maybe is not so small. And my opinion is that this kind of events will consolidate as a very good alternative to the ever price increasing, overcrowded and more marketing oriented event that has become Drupalcon. And the perfect weather and great nightlife of Barcelona this time of the year made it the best european Drupal event I have attended since quite some time.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.bluesparklabs.com/&quot;&gt;Bluespark Labs&lt;/a&gt; was one of the sponsors of the event, and team members &lt;a href=&quot;http://drupal.org/user/200188&quot;&gt;Ronald Ashri&lt;/a&gt;, Andrea Poidomani, &lt;a href=&quot;http://drupal.org/user/356249&quot;&gt;Pablo Cerda&lt;/a&gt; and myself (&lt;a href=&quot;http://drupal.org/user/123766&quot;&gt;Pedro Lozano&lt;/a&gt;) attended.&lt;/p&gt;
+&lt;!--break--&gt;&lt;!--break--&gt;&lt;h3&gt;Views in Drupal Core sprint&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&quot;inline inline-none&quot;&gt;&lt;img src=&quot;/sites/peterlozano.com/files/imagecache/preview/ifa_upload/img_5512_-_version_2.jpg&quot; alt=&quot;&quot; title=&quot;Views in Drupal Core sprinters&quot;   /&gt;&lt;span class=&quot;caption&quot; style=&quot;width: -2px;&quot;&gt;&lt;strong&gt;Views in Drupal Core sprinters&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+	I hadn&#039;t planned to attend any of the code sprints but I learned about this new initiative called &lt;a target=&quot;_new&quot; href=&quot;http://angrydonuts.com/help-fund-views-in-core&quot;&gt;Views in Drupal Core&lt;/a&gt; (VDC) that the main Views maintainer Earl Miles announced recently, and somehow I got involved and spent a few hours sending some patches. Contributing to it is a very good way to learn about the internals workings of Views, Ctools and Drupal core all at the same time, so it is a very interesting project.&lt;/p&gt;
+&lt;p&gt;Thanks to &lt;a href=&quot;http://drupal.org/user/99340&quot;&gt;Daniel Wehner&lt;/a&gt; (&lt;a href=&quot;http://twitter.com/da_wehner&quot;&gt;@da_wehner&lt;/a&gt;), who lead the sprint, I got introduced to some of the changes required to port views&#039; testing unit tests to the new &lt;a href=&quot;https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md&quot;&gt;PSR-0 standard&lt;/a&gt; that is been introduced in Drupal 8 for class namespacing and autoloading.&lt;/p&gt;
+&lt;p&gt;	You can find the list of VDC related tickets &lt;a href=&quot;http://drupal.org/community-initiatives/drupal-core/vdc&lt;br /&gt;
+	&quot;&gt;in this list of issues&lt;/a&gt;. There is also an irc channel #drupal-vdc on freenode for developers to coordinate, and where you can get in touch with Views maintainers (listed in the blog post above) to help you get started if you want to contribute.&lt;/p&gt;
+&lt;h3&gt;Saturday list of session (I attended)&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&quot;inline inline-none&quot;&gt;&lt;img src=&quot;/sites/peterlozano.com/files/imagecache/preview/ifa_upload/img_5578.jpg&quot; alt=&quot;&quot; title=&quot;Greg Dunlap about to present CMI&quot;   /&gt;&lt;span class=&quot;caption&quot; style=&quot;width: -2px;&quot;&gt;&lt;strong&gt;Greg Dunlap about to present CMI&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://barcelona2012.drupaldays.org/sessions/introducing-drupal-8-configuration-management-system&quot;&gt;Introducing the Drupal 8 configuration management system&lt;/a&gt; - &lt;a href=&quot;http://drupal.org/user/128537&quot;&gt;Greg Dunlap&lt;/a&gt;
+&lt;p&gt;	I had already listened to Greg explaining the new Drupal core Configuration Management initiative, but this is a very important and complex topic that will affect every Drupal developer live since day 1 when Drupal 8 comes out, so I attended again to gain a little bit more knowledge about the system.
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://barcelona2012.drupaldays.org/sessions/how-sleep-without-server-crash-fear-high-availability-and-high-performance-hosting-drupal&quot;&gt;How to sleep without the server-crash-fear (High Availability and High Performance Hosting for Drupal)&lt;/a&gt; - &lt;a href=&quot;http://drupal.org/user/643820&quot;&gt;Michael Schmid&lt;/a&gt;
+&lt;p&gt;	Good session for anyone looking have an overview of all the tools that today people are using to maintaing a high level of availability in a high traffic drupal site.
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://barcelona2012.drupaldays.org/sessions/introducing-symfony2&quot;&gt;Introducing Symfony2&lt;/a&gt; - &lt;a href=&quot;http://drupal.org/user/399318&quot;&gt;Claudio Beatrice&lt;/a&gt;
+&lt;p&gt;	This session was more about Symfony itself than its relationship with drupal. Required session if you want to start to lose your fear to Symfony, or increase it :-)
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://barcelona2012.drupaldays.org/sessions/architecting-drupal-modules-report-frontlines&quot;&gt;Architecting Drupal Modules - Report from the frontlines&lt;/a&gt; - &lt;a href=&quot;http://drupal.org/user/200188&quot;&gt;Ronald Ashri&lt;/a&gt;
+&lt;p&gt;	This is Bluespark&#039;s Technical Director Ronald Ashri on scene. It&#039;s experience building Drupal Rooms and involvement in many other projects as a developer and as a team leader grants that the audience will learn some good advices here about constructing drupal code and sites. Also with his extensive knowledge of Drupal humor he knew how to keep the attendees smiling :-)
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://barcelona2012.drupaldays.org/sessions/drupalize-your-data-use-entities&quot;&gt;Drupalize Your Data: Use Entities!&quot;&lt;/a&gt; - &lt;a href=&quot;http://drupal.org/user/16747&quot;&gt;Wolfgang Ziegler&lt;/a&gt;
+&lt;p&gt;	Fago is one of the main persons behind Drupal&#039;s entity system and he sure can teach anyone a lot about developing with entities. I expected this session to have more info about working with entities referencing external data (non-db data), so I wasn&#039;t totally satisfied. But good session nevertheless.
+&lt;/li&gt;
+&lt;li&gt; &lt;a href=&quot;http://barcelona2012.drupaldays.org/sessions/beat-devil-towards-drupal-performance-benchmark&quot;&gt;Beat the devil: towards a Drupal performance benchmark&lt;/a&gt; - &lt;a href=&quot;http://twitter.com/rodricels&quot;&gt;Rodrigo Alfaro&lt;/a&gt;, &lt;a href=&quot;http://drupal.org/user/8859&quot;&gt;Antonio Almeida&lt;/a&gt;, &lt;a href=&quot;http://drupal.org/user/39078&quot;&gt;Pedro González Serrano&lt;/a&gt;
+&lt;p&gt;	I know Rodrigo and Pedro since a long ago they are among the best performance engineers that I know, so I don&#039;t ever miss their sessions, you always get introduced to new tools. Benchmarking Drupal is a complex topic with lots of different approaches and this was a good overview of the topics and tools available.
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Sunday list of sessions&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&quot;inline inline-none&quot;&gt;&lt;img src=&quot;/sites/peterlozano.com/files/imagecache/preview/ifa_upload/img_5602.jpg&quot; alt=&quot;&quot; title=&quot;Ronald Ashri talking about architecting Drupal modules&quot;   /&gt;&lt;span class=&quot;caption&quot; style=&quot;width: -2px;&quot;&gt;&lt;strong&gt;Ronald Ashri talking about architecting Drupal modules&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://barcelona2012.drupaldays.org/sessions/drupal-8-what-you-need-know&quot;&gt;Drupal 8: What you need to know&lt;/a&gt; - &lt;a href=&quot;http://drupal.org/user/24967&quot;&gt;Angela Byron&lt;/a&gt;
+&lt;p&gt;	Actually I couldn&#039;t attend this one but it is worth a mention since Angie is one of the most important contributors that Drupal has ever had and her presence in this event has been very appreciated.&lt;/p&gt;
+&lt;p&gt;	So if you wanted to know what is coming up in the Drupal core word, this is the one session to be on.
+&lt;/li&gt;
+&lt;li&gt; &lt;a href=&quot;http://barcelona2012.drupaldays.org/sessions/drupal-and-nodejs-beyond-chat&quot;&gt;drupal and nodejs - beyond chat&lt;/a&gt; - &lt;a href=&quot;http://drupal.org/user/243377&quot;&gt;Fredrik Lassen&lt;/a&gt;
+&lt;p&gt;	If you try to learn about Drupal and Nodejs you will probably find a lot of chat related examples. So the question this session addresses is what more can this technology be used for. And we learned a few examples: private downloads without loading apache, irc bots, request pipelining, etc.
+&lt;/li&gt;
+&lt;li&gt; &lt;a href=&quot;http://barcelona2012.drupaldays.org/sessions/displaying-external-data-fly-views-and-ctools&quot;&gt;Displaying external data on the fly with Views and CTools&lt;/a&gt; - &lt;a href=&quot;http://drupal.org/user/613760&quot;&gt;Bálint Kléri&lt;/a&gt;
+&lt;p&gt;	This is a very interesting topic for me since I have had to integrate a long list of external services and data streams during the years that I&#039;ve working on drupal projects and this provides a new approach to me, where you can use views to display in your website data that is not stored in your database or even your own server. Creating views of data coming from an external web services or even from another website html code is possible just by writing a views query plugin.
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Other activities&lt;/h3&gt;
+&lt;p&gt;	The list of Drupal code sprints was at the level of any Drupalcon:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt; &lt;a href=&quot;http://barcelona2012.drupaldays.org/"/tags/drupal">drupal</category>
+ <category domain="/tags/drupal-planet">drupal-planet</category>
+ <pubDate>Mon, 18 Jun 2012 23:41:08 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">87 at </guid>
+</item>
+<item>
+ <title>Camera to Drupal, instant image distribution</title>
+ <link>/camera-drupal-instant-image-distribution</link>
+ <description>&lt;h2&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;This posts describes a method to take a picture with a digital camera (preferably a DSLR) and have it instantly uploaded to a Drupal website where it will be imported as an image node. All these steps will be done automatically and you will only need to press the shutter button of your camera for the whole process to start. Continuous shutting is also supported.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;inline inline-none&quot;&gt;&lt;img src=&quot;/sites/peterlozano.com/files/imagecache/preview/ifa_upload/camera2drupal.png&quot; alt=&quot;&quot; title=&quot;Camera to Drupal workflow&quot;   /&gt;&lt;span class=&quot;caption&quot; style=&quot;width: -2px;&quot;&gt;&lt;strong&gt;Camera to Drupal workflow: &lt;/strong&gt;Trigger the whole process only by clicking the shutter of your camera.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;!--break--&gt;&lt;!--break--&gt;&lt;/p&gt;
+&lt;h2&gt;Preparations&lt;/h2&gt;
+&lt;p&gt;You will need to setup some tools in order to have all the software necessary for make this work.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Gphoto2&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://gphoto.sourceforge.net/&quot;&gt;Gphoto2&lt;/a&gt; is the command line utility that we will use for connecting the computer to the camera. It supports tethered capture, which is how the process of taking a picture and having it instantly downloaded to your computer is called. Other well known applications like Aperture and Lighroom support tethering but they are not command line scriptable, not opensource and too bloated for what we intend to do here.&lt;br /&gt;
+Most used linux distributions have packages for installing gphoto2 including all its dependencies. In Mac you can install it using &lt;a href=&quot;http://www.macports.org/&quot;&gt;Macports&lt;/a&gt; with the command &quot;sudo port install gphoto2&quot;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Drupal and Image module&lt;/p&gt;
+&lt;p&gt;A Drupal site with the &lt;a href=&quot;http://drupal.org/project/image&quot;&gt;image&lt;/a&gt; module will be needed. You must enable at least the image and image_import modules. They are easy to install and configure. I leave it as an exercise to the reader setup them for image importing from a folder.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Capturing images with Gphoto2&lt;/h2&gt;
+&lt;p&gt;Some previous tips that will save you troubleshooting time:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Use the most recent version of gphoto2, the software has pretty active development with new camera drivers and bugfixes added frequently. I wasn&#039;t able to write this post until a recent version of gphoto fixed a bug with my camera.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;If your computer has any software that automatically launches when you connect your camera it will need to be disabled or finished since it will prevent gphoto from communicating with the camera. There may even be some daemon process that launches in the background and prevents gphoto from working.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;For example, Mac users will have to kill the process called PTPCamera or it will prevent gphoto from communicating with the camera. The PTPCamera process launches in the background each time you connect your camera to the computer. You can see if the process is running using the &quot;ps ax | grep PTPCamera&quot; command in a terminal. To kill this process you need to execute the command &quot;killall PTPCamera&quot;. Do this every time you connect the camera in order to gphoto to work.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Disable the camera auto-off feature. Usually cameras have this energy saving feature preconfigured to something like 30 seconds. I recommend to turn this feature off when capturing images from the computer since the camera will turn off if you don&#039;t do anything in the configured time and you will have to turn it on again or reconnect it, kill the PTPCamera process (or equivalent), and launch gphoto again. Having this feature disabled will allow you to take pictures without interruptions as long as you (or you batteries) want.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Once you connect the camera to the computer and turn it on you can check if gphoto detects it with:&lt;/p&gt;
+&lt;p&gt;[geshifilter-blockcode]&amp;#10;$ gphoto2 --auto-detect&amp;#10;Model                          Port                                            &amp;#10;----------------------------------------------------------&amp;#10;Canon EOS 450D (PTP mode)      usb:            &amp;#10;Canon EOS 450D (PTP mode)      usb:036,003&amp;#10;[/geshifilter-blockcode]&lt;/p&gt;
+&lt;p&gt;If you dont see your camera listed you should review the previous tips mentioned above. To see whether your camera is supported by gphoto2 you can use:&lt;/p&gt;
+&lt;p&gt;[geshifilter-blockcode]&amp;#10;$ gphoto2 --list-cameras&amp;#10;Number of supported cameras: 1245&amp;#10;Supported cameras:&amp;#10;        &amp;quot;Achiever Digital Adc65&amp;quot;&amp;#10;        &amp;quot;AEG Snap 300&amp;quot;&amp;#10;        &amp;quot;Agfa ePhoto 1280&amp;quot;&amp;#10;[...]&amp;#10;[/geshifilter-blockcode]&lt;/p&gt;
+&lt;p&gt;A long list of supported camera models will show. (grep is your friend).&lt;/p&gt;
+&lt;p&gt;Gphoto has several commands that you can test:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;gphoto2 --capture-image&lt;br /&gt;
+Will capture an image an leave it in the memory card on the camera.&lt;/li&gt;
+&lt;li&gt;gphoto2 --capture-image-and-download&lt;br /&gt;
+Will capture an image and download it immediately to the current folder&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;But the most interesting command is:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;gphoto --wait-event-and-download&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;renamed in recent versions to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;gphoto2 --capture-tethered&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This command waits for you to take a picture by pressing the shutter button on the camera and then the image is automatically downloaded to the current folder. The command keeps waiting for more events (more pictures) until you interrupt it with CTRL-C (you can also pass the amount of time to wait as an argument).&lt;/p&gt;
+&lt;h2&gt;Uploading the pictures to the server&lt;/h2&gt;
+&lt;p&gt;The gphoto option that makes the magic here is --hook-script. This options allows to specify an script that will be executed after the image has been downloaded and will receive the file name as an argument.&lt;/p&gt;
+&lt;p&gt;So if you do something like this:&lt;/p&gt;
+&lt;p&gt;[geshifilter-blockcode]&amp;#10;$ gphoto2 --capture-tethered --hook-script=test-hook.sh&amp;#10;[/geshifilter-blockcode]&lt;/p&gt;
+&lt;p&gt;gphoto will wait for you to take pictures with the camera and after each picture is downloaded to the computer it will execute the test-hook.sh script passing the filename as an argument.&lt;/p&gt;
+&lt;p&gt;There is a stub test-hook.sh script in gphoto documentation folder (ie: /usr/share/doc/gphoto2). We will copy this stub script to the current folder and modify it to make it upload the picture to the server where our Drupal site is installed. Actually the file must be uploaded to the folder where the image_import module is configured to take the images from (config at admin/settings/image/image_import).&lt;/p&gt;
+&lt;p&gt;Depending on how you wish to upload the files to the server the commands to include in the script will be different. I will use SCP with public key authentication to upload the files. You may opt for FTP using wget, curl or ncftpput.&lt;/p&gt;
+&lt;p&gt;The final test-hook.sh script will look like this:&lt;/p&gt;
+&lt;p&gt;[geshifilter-bash]&amp;#10;#!/bin/sh&amp;#10;self=&amp;#96;basename $0&amp;#96;&amp;#10;&amp;#10;case &amp;quot;$ACTION&amp;quot; in&amp;#10;    init)&amp;#10;  echo &amp;quot;$self: INIT&amp;quot;&amp;#10;  # exit 1 # non-null exit to make gphoto2 call fail&amp;#10;  ;; &amp;#10;    start)&amp;#10;  echo &amp;quot;$self: START&amp;quot;&amp;#10;  ;;&amp;#10;    download)&amp;#10;  echo &amp;quot;$self: DOWNLOAD to $ARGUMENT&amp;quot;&amp;#10;&amp;#10;  # Upload the image file to the server&amp;#10;  DEST = example.com:/var/www/images.example.com/files/tmp/image/&amp;#10;  scp $ARGUMENT $dest&amp;#10;&amp;#10;  # Call the image importing script&amp;#10;  wget -O - -q \&amp;#10;    &amp;quot;http://images.example.com/image-cap.php?filename=$ARGUMENT&amp;quot;&amp;#10;  ;;&amp;#10;    stop)&amp;#10;  echo &amp;quot;$self: STOP&amp;quot;&amp;#10;  ;;&amp;#10;    *)&amp;#10;  echo &amp;quot;$self: Unknown action: $ACTION&amp;quot;&amp;#10;  ;;&amp;#10;esac&amp;#10;&amp;#10;exit 0&amp;#10;[/geshifilter-bash]&lt;/p&gt;
+&lt;h2&gt;Importing the uploaded images&lt;/h2&gt;
+&lt;p&gt;I will explain now the wget part of the previous script, this is the most tricky part of the whole process.&lt;/p&gt;
+&lt;p&gt;When you upload the files to your server you need some way to tell the Drupal site: &quot;hey, I&#039;ve uploaded these files, import them to nodes&quot;. You can do this from the user interface of the &quot;image_import&quot; module but we want to make it automatic so we need another way.&lt;/p&gt;
+&lt;p&gt;The simplest way to do this is to write a php script that will invoke the image module function for importing images. The script will look something like this:&lt;/p&gt;
+&lt;p&gt;[geshifilter-drupal6]&amp;#10;&amp;lt;?php&amp;#10;&amp;#10;require_once &amp;#039;./includes/bootstrap.inc&amp;#039;;&amp;#10;drupal_bootstrap(DRUPAL_BOOTSTRAP_FULL);&amp;#10;&amp;#10;$filepath = &amp;#039;sites/images.example.com/files/tmp/image/&amp;#039;. $_GET[&amp;#039;filename&amp;#039;];&amp;#10;&amp;#10;global $user;&amp;#10;# Impersonate user with &amp;#039;create images&amp;#039; permission&amp;#10;$uid = 3;&amp;#10;$user = user_load($uid);&amp;#10;&amp;#10;if (!empty($filepath) &amp;amp;&amp;amp; file_exists($filepath)) {&amp;#10;  if ($node = image_create_node_from($filepath)) {&amp;#10;    echo &amp;quot;NODE: $node-&amp;gt;nid : $node-&amp;gt;title : CREATED\n&amp;quot;;&amp;#10;  }&amp;#10;}&amp;#10;&amp;#10;?&amp;gt;&amp;#10;[/geshifilter-drupal6]&lt;/p&gt;
+&lt;p&gt;The $uid variable must be set to the uid of a user with the &#039;create images&#039; permission.&lt;/p&gt;
+&lt;p&gt;The $filepath variable assignment must also be modified to point to the directory where the images were uploaded.&lt;/p&gt;
+&lt;p&gt;You can also pass other arguments to the image_create_node_from function, like the taxonomy term of the gallery where you want the pictures archived (see image.module).&lt;/p&gt;
+&lt;p&gt;Save this script in the Drupal installation root directory (where index.php is). I named it image-cap.php but you should use another name so no one except you knows how to execute it.&lt;/p&gt;
+&lt;p&gt;And this is where the wget part of the test-hook.sh script comes in:&lt;/p&gt;
+&lt;p&gt;[geshifilter-blockcode]&amp;#10;wget -O - -q \&amp;#10; &amp;quot;http://images.example.com/image-cap.php?filename=$ARGUMENT&amp;quot;&amp;#10;[/geshifilter-blockcode]&lt;/p&gt;
+&lt;p&gt;The command just calls the image-cap.php script in your server and pass the filename of the image that was just uploaded. The image-cap.php scripts will take this file and convert it to an image node.&lt;/p&gt;
+&lt;h2&gt;Launching the whole process&lt;/h2&gt;
+&lt;p&gt;Once you have configured everything as explained above, you should be able to launch:&lt;/p&gt;
+&lt;p&gt;[geshifilter-blockcode]&amp;#10;$ gphoto2 --capture-tethered --hook-script=test-hook.sh&amp;#10;[/geshifilter-blockcode]&lt;/p&gt;
+&lt;p&gt;and each time you press the shutter button of your camera a picture will be taken, downloaded to the computer, uploaded to the server and imported into the Drupal site as an image node.&lt;/p&gt;
+&lt;p&gt;Gphoto works nicely queueing several pictures so you can take as many pictures or use continuous shooting without having to wait for the process to finish to take another picture, they will be nicely processed in sequence.&lt;/p&gt;
+&lt;p&gt;The output should look something like this:&lt;/p&gt;
+&lt;p&gt;[geshifilter-blockcode]&amp;#10;$ gphoto2 --capture-tethered --force-overwrite --hook-script=test-hook.sh &amp;#10;test-hook.sh: INIT                                                             &amp;#10;test-hook.sh: START&amp;#10;Waiting for events from camera. Press Ctrl-C to abort.&amp;#10;Saving file as capt0000.jpg                                                    &amp;#10;test-hook.sh: DOWNLOAD to capt0000.jpg&amp;#10;capt0000.jpg                     100%  544KB 543.8KB/s   00:00    &amp;#10;NODE: 141 : capt0000.jpg : CREATED&amp;#10;Deleting &amp;#039;capt0000.jpg&amp;#039; from folder &amp;#039;/&amp;#039;...&amp;#10;[/geshifilter-blockcode]&lt;/p&gt;
+&lt;p&gt;TIP: You may be insterested in setting the resolution of your camera to a low value since publishing pictures for the web doesn&#039;t require a high resolution and it will take more time to upload them which is bad if you want instant publishing.&lt;/p&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Sport events, conference session or keynote live blogging, you name it... There are several situations in which instant publishing of your pictures may be insteresting and have a competitive advantage if you are a professional.&lt;/p&gt;
+&lt;p&gt;With the method described here you can achieve instant distribution of your pictures by using only opensource software.&lt;/p&gt;
+&lt;p&gt;The proccess can be adapted to other CMS choices and expanded for more extensive processing of images (watermarking, rotation) or further distribution of the created media.&lt;/p&gt;
+&lt;div class=&quot;image-clear&quot;&gt;&lt;/div&gt;</description>
+ <comments>/camera-drupal-instant-image-distribution#comments</comments>
+ <category domain="/tags/camera">camera</category>
+ <category domain="/tags/distribution">distribution</category>
+ <category domain="/tags/drupal">drupal</category>
+ <category domain="/tags/drupal-planet">drupal-planet</category>
+ <category domain="/tags/image">image</category>
+ <category domain="/tags/tethering">tethering</category>
+ <pubDate>Sat, 24 Jul 2010 11:11:54 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">75 at </guid>
+</item>
+<item>
+ <title>Drupalcon San Francisco 2010, day 3</title>
+ <link>/drupalcon-san-francisco-2010-day-3</link>
+ <description>&lt;p&gt;&lt;span class=&quot;inline inline-left&quot;&gt;&lt;img src=&quot;/sites/peterlozano.com/files/imagecache/preview/ifa_upload/IMG_4078.jpg&quot; alt=&quot;&quot; title=&quot;Flags at the Moscone Center entrance&quot;   /&gt;&lt;span class=&quot;caption&quot; style=&quot;width: -2px;&quot;&gt;&lt;strong&gt;Flags at the Moscone Center entrance&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Third and last day of Drupalcon, we continue to see interesting things.&lt;/p&gt;
+&lt;!--break--&gt;&lt;!--break--&gt;&lt;h3&gt;Instant Dynamic Forms with #states&lt;/h3&gt;
+&lt;p&gt;Presenter:&lt;br /&gt;
+Konstantin Käfer&lt;/p&gt;
+&lt;p&gt;This is one of the most interesting improvements around the form API in Drupal 7.&lt;/p&gt;
+&lt;p&gt;It provides you with a method to create dynamic forms without writing javascript, and here &#039;dynamic&#039; does not refer to the ahah features already present in Drupal 6, we are now talking about things like making new elements appear in the form when a checkbox is selected, without having to do any request to the server.&lt;/p&gt;
+&lt;p&gt;In code, the basic usage takes form of dependencies. You describe which fields depends on others, what kind of dependency they have and what&#039;s the action to run when the dependency is met.&lt;/p&gt;
+&lt;p&gt;It also servers to dynamically validate the introduced data, for example with phone or credit cards number formats, all this without making ajax calls, with javascript but without having to write javascript, just specifying regular expressions in the form API.&lt;/p&gt;
+&lt;p&gt;You can also change the &#039;required&#039; property of fields depending on the values of others.&lt;/p&gt;
+&lt;p&gt;There is this other new concept called &#039;triggers&#039; (not related to the triggers functionality in Drupal 6) which allows to do more advanced things but that require to write some javascript. Por example, disable a field when certain string is written on it.&lt;/p&gt;
+&lt;p&gt;Session page: &lt;a href=&quot;http://sf2010.drupal.org/conference/sessions/instant-dynamic-forms-states&quot; title=&quot;http://sf2010.drupal.org/conference/sessions/instant-dynamic-forms-states&quot;&gt;http://sf2010.drupal.org/conference/sessions/instant-dynamic-forms-states&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Advanced drush&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&quot;inline inline-left&quot;&gt;&lt;img src=&quot;/sites/peterlozano.com/files/imagecache/preview/ifa_upload/IMG_4149.jpg&quot; alt=&quot;&quot; title=&quot;Advanced drush session&quot;   /&gt;&lt;span class=&quot;caption&quot; style=&quot;width: -2px;&quot;&gt;&lt;strong&gt;Advanced drush session&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Presenters:&lt;br /&gt;
+Moshe Weitzman&lt;br /&gt;
+Owen Barton&lt;br /&gt;
+Adrian Rossouw&lt;br /&gt;
+Greg Anderson&lt;/p&gt;
+&lt;p&gt;In this session we are introduced with a series of new features that are been developed around the drush command.&lt;/p&gt;
+&lt;p&gt;Aliases, very useful. Now you can execute drush commands over any Drupal install without having to be inside the site directory (sites/...) or having to specify a drushrc.php file. For example you can do: drush @dev status, where #dev is the alias defined in a global location which contains the config data for all your sites so drush knows which site you are referring to.&lt;/p&gt;
+&lt;p&gt;Remote sites. We can execute drush commands on Drupal sites located in other servers. Drush automatically access the server using ssh and executes the command. For authentication it&#039;s recommended (and its the default) to use the ssh public key system, although you can also force the use of passwords.&lt;/p&gt;
+&lt;p&gt;You can now run commands in several sites at the same time, using the alias @sites or a list of site aliases.&lt;/p&gt;
+&lt;p&gt;Aliases for commands. Example, alias cc for &#039;cache clear&#039;, you can even specify which cache you want to clear (menu, theme, page, etc), instead of all like its done in current versions.&lt;/p&gt;
+&lt;p&gt;Interactive drush shell, with aliases for the most used directories in a drupal install. It&#039;s like a drush shell, inside of it you have specific commands to jump to the different directories that you can find in every drupal install.&lt;/p&gt;
+&lt;p&gt;New &#039;hook&#039; command that allows you to see the hook code. It first presents a list of modules that implement a given hook, you select one and it shows you the code.&lt;/p&gt;
+&lt;p&gt;They continue with a fast tutorial on how to write drush commands, hooks that you can implements, etc.&lt;/p&gt;
+&lt;p&gt;The first example is a command &#039;drush make.me-a-sandwich&#039;, which ends up showing an ascii sandwich on the terminal.&lt;/p&gt;
+&lt;p&gt;Session page: &lt;a href=&quot;http://sf2010.drupal.org/conference/sessions/advanced-drush&quot; title=&quot;http://sf2010.drupal.org/conference/sessions/advanced-drush&quot;&gt;http://sf2010.drupal.org/conference/sessions/advanced-drush&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;The story of RDF in Drupal 7 and what it means for the Web at large&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&quot;inline inline-left&quot;&gt;&lt;img src=&quot;/sites/peterlozano.com/files/imagecache/preview/ifa_upload/IMG_4177.jpg&quot; alt=&quot;&quot; title=&quot;Videoconferencing the session&quot;   /&gt;&lt;span class=&quot;caption&quot; style=&quot;width: -2px;&quot;&gt;&lt;strong&gt;Videoconferencing the session&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Presenters:&lt;br /&gt;
+Stéphane Corlosquet&lt;br /&gt;
+Lin Clark&lt;/p&gt;
+&lt;p&gt;One of the presenters of this session could not go to Drupalcon and got stuck in Europe because of the volcano, so she is connected by videoconferencing and she starts to explain some slides.&lt;/p&gt;
+&lt;p&gt;It may be hard to get when you are first introduced to RDF, but applications are very interesting.&lt;/p&gt;
+&lt;p&gt;She starts explaining some basic notions about RDF, introducing &#039;resources&#039;, ex: document, company, person. The different kind of resources and the possibility of describing properties about each one.&lt;/p&gt;
+&lt;p&gt;The presenters exposes using a comparative table the advantages of RDF over other meta markup formats like Microformats.&lt;/p&gt;
+&lt;p&gt;Drupal 7 has RDF capabilities integrated into core and some of the more popular RDF schemas are supported &#039;out of the bos&#039;, like foaf, soc, dc.&lt;/p&gt;
+&lt;p&gt;Session page: &lt;a href=&quot;http://sf2010.drupal.org/conference/sessions/story-rdf-drupal7-and-what-it-means-web-large&quot; title=&quot;http://sf2010.drupal.org/conference/sessions/story-rdf-drupal7-and-what-it-means-web-large&quot;&gt;http://sf2010.drupal.org/conference/sessions/story-rdf-drupal7-and-what-...&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Closing session and next Drupalcons&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&quot;inline inline-left&quot;&gt;&lt;img src=&quot;/sites/peterlozano.com/files/imagecache/preview/ifa_upload/IMG_4215.jpg&quot; alt=&quot;&quot; title=&quot;Morten announcing Drupalcon Copenhagen&quot;   /&gt;&lt;span class=&quot;caption&quot; style=&quot;width: -2px;&quot;&gt;&lt;strong&gt;Morten announcing Drupalcon Copenhagen&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;They now make a review of the numbers that this conference has handled, even coffee galons have been counted. Economically they have moved amounts over the million dollars, having obtained profits over $300,000 that goes to the Drupal Association.&lt;/p&gt;
+&lt;p&gt;In the closing session they spend some time to announce where the next drupalistas meet ups will be.&lt;/p&gt;
+&lt;p&gt;Morten is in charge of announcing that the next Drupalcon will be in Copenhagen six months from now. The web is at &lt;a href=&quot;http://cph2010.drupal.org&quot; title=&quot;http://cph2010.drupal.org&quot;&gt;http://cph2010.drupal.org&lt;/a&gt;. You can register starting today.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;inline inline-left&quot;&gt;&lt;img src=&quot;/sites/peterlozano.com/files/imagecache/preview/ifa_upload/IMG_4223.jpg&quot; alt=&quot;&quot; title=&quot;Drupalcon Chicago 2011 logo&quot;   /&gt;&lt;span class=&quot;caption&quot; style=&quot;width: -2px;&quot;&gt;&lt;strong&gt;Drupalcon Chicago 2011 logo&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;And for the next year, again at the Unites States, Drupalcon will be in Chicago. The announcement is done by Tiffany Farris, from palantir.net, that will lead the organization. It seems that they are preparing a very original Drupalcon. They are going to lease several entire floors in a hotel in the middle of downtown and Drupalcon will take place there. Web: &lt;a href=&quot;http://chicago2011.drupal.org&quot; title=&quot;http://chicago2011.drupal.org&quot;&gt;http://chicago2011.drupal.org&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Party (aka. more networking)&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&quot;inline inline-left&quot;&gt;&lt;img src=&quot;/sites/peterlozano.com/files/imagecache/preview/ifa_upload/IMG_4263.jpg&quot; alt=&quot;&quot; title=&quot;San Franciso skyline&quot;   /&gt;&lt;span class=&quot;caption&quot; style=&quot;width: -2px;&quot;&gt;&lt;strong&gt;San Franciso skyline&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Like every night Drupalcon has organized a private party, this time at Mission, a little more far appart than the previous days, so they have setup free busses so people can go there and back. The club has three floors and a amazing view of the city skyline.&lt;/p&gt;
+&lt;h3&gt;Related posts&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;http://oitdesign.ncsu.edu/2010/04/22/drupalcon-2010-day-three/&quot; title=&quot;http://oitdesign.ncsu.edu/2010/04/22/drupalcon-2010-day-three/&quot;&gt;http://oitdesign.ncsu.edu/2010/04/22/drupalcon-2010-day-three/&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;image-clear&quot;&gt;&lt;/div&gt;</description>
+ <comments>/drupalcon-san-francisco-2010-day-3#comments</comments>
+ <category domain="/tags/drupal">drupal</category>
+ <category domain="/tags/drupal-planet">drupal-planet</category>
+ <category domain="/tags/drupalcon">drupalcon</category>
+ <pubDate>Fri, 30 Apr 2010 18:19:05 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">73 at </guid>
+</item>
+<item>
+ <title>Drupalcon San Francisco 2010, day 2</title>
+ <link>/drupalcon-san-francisco-2010-day-2</link>
+ <description>&lt;p&gt;&lt;span class=&quot;inline inline-left&quot;&gt;&lt;img src=&quot;/sites/peterlozano.com/files/imagecache/preview/ifa_upload/dries-gardens.jpg&quot; alt=&quot;&quot; title=&quot;Dries talks about Acquia Gardens&quot;   /&gt;&lt;span class=&quot;caption&quot; style=&quot;width: -2px;&quot;&gt;&lt;strong&gt;Dries talks about Acquia Gardens&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Notes from my second day at Drupalcon San Francisco 2010.&lt;/p&gt;
+&lt;!--break--&gt;&lt;!--break--&gt;&lt;h3&gt;Drupal Gardens: Design to online in 15 minutes&lt;/h3&gt;
+&lt;p&gt;Presenters:&lt;br /&gt;
+Dries Buytaert&lt;br /&gt;
+Linea Rowe	&lt;/p&gt;
+&lt;p&gt;By now everybody will probably have tested it, but Acquia is promoting by all means their Drupal Gardens. As Dries points out, Gardens tries to be the wordpress.com equivalent in the Drupal world, a place where you can go and create a blog or a Drupal site in an easy way and without having to program.&lt;/p&gt;
+&lt;p&gt;The co-presenter, Linea Rowe, makes a review of all the features that Gardens has.&lt;/p&gt;
+&lt;p&gt;One of the reasons why Dries keeps Gardens still in beta is because it&#039;s based on Drupal 7 and this still hasn&#039;t an stable release.&lt;/p&gt;
+&lt;p&gt;One of the most exclusive and spectacular things implemented is the &#039;theme builder&#039; which makes easy to choose a theme an customize it. The module is not public (not to be confused with &lt;a href=&quot;http://drupal.org/project/themebuilder&quot;&gt;themebuilder&lt;/a&gt;) and it doesn&#039;t seem thay have any intention to make it so. Almost everyone is impressed when colors and designs change dynamically on the site. Nobody blames them for keeping that module and other tools from the public domain, otherwise anyone could build a clone of Gardens in a matter of hours, it&#039;s the same definition of &#039;software as a service&#039; (SAAS).&lt;/p&gt;
+&lt;p&gt;Now Dries talks about other Acquia products and the Drupal environment as a whole. All Acquia products have Acquia hosting as their base platform, he comments about how this hosting infrastructure is built, having Amazon Web Services in their lowermost layer, over them a series of custom layers have been implemented.&lt;/p&gt;
+&lt;p&gt;He notes the amount demand of Drupal talent, many companies are starting with Drupal, there is a sort of boom, but it&#039;s difficult to find people with skills which already have Drupal knowledge to work as programmers, themers or even to train other people on the Drupal platform.&lt;/p&gt;
+&lt;p&gt;Provision of sites in Gardens is not done with the Aegir system since it has a very changing and active development. For this Acquia has it&#039;s own system of scripts running on the Acquia hosting.&lt;/p&gt;
+&lt;p&gt;Video: &lt;a href=&quot;http://sf2010.drupal.org/conference/sessions/drupal-gardens-design-online-15-minutes&quot; title=&quot;http://sf2010.drupal.org/conference/sessions/drupal-gardens-design-online-15-minutes&quot;&gt;http://sf2010.drupal.org/conference/sessions/drupal-gardens-design-onlin...&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Challenges of hosting Drupal on AWS&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&quot;inline inline-left&quot;&gt;&lt;img src=&quot;/sites/peterlozano.com/files/imagecache/preview/ifa_upload/drupal-aws.jpg&quot; alt=&quot;&quot; title=&quot;Drupal on AWS stack&quot;   /&gt;&lt;span class=&quot;caption&quot; style=&quot;width: -2px;&quot;&gt;&lt;strong&gt;Drupal on AWS stack&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Presenter:&lt;br /&gt;
+Barry Jaspan	&lt;/p&gt;
+&lt;p&gt;Since it started working I&#039;ve been very interested in Amazon services (S3, C2, etc.) and have done a lot of experimentation. Hosting a Drupal site is AWS is simple, you basically need a virtual machine running and other services that are more or less complex to setup.&lt;/p&gt;
+&lt;p&gt;The complex problem comes when trying to use this infrastructure with a high traffic site. It&#039;s not very different to the problem of doing it with physical machines and you have the advantage of having &#039;unlimited&#039; machines to use.&lt;/p&gt;
+&lt;p&gt;The first advantage, says Barry, is flexibility, starting new machines when needed, geographical distribution, been able to locate these machines in the several datacenters that Amazon has around the world.&lt;/p&gt;
+&lt;p&gt;He tells the case when a client calls and says that the are about to launch a Drupal site and that it&#039;s going to have 20 million visits the first day, which is the next Monday, and they succeeded.&lt;/p&gt;
+&lt;p&gt;The rest of the talk is very technical and it&#039;s better to watch the slides and note the elections that they have made with the software that composes the platform (proxies, load balancers, etc.).&lt;/p&gt;
+&lt;p&gt;Video: &lt;a href=&quot;http://sf2010.drupal.org/conference/sessions/challenges-hosting-drupal-aws&quot; title=&quot;http://sf2010.drupal.org/conference/sessions/challenges-hosting-drupal-aws&quot;&gt;http://sf2010.drupal.org/conference/sessions/challenges-hosting-drupal-aws&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Strategies for Community Contributions&lt;/h3&gt;
+&lt;p&gt;Ponentes:&lt;br /&gt;
+Greg Knaddison&lt;br /&gt;
+Eric Gundersen&lt;br /&gt;
+Michael E. Meyers&lt;/p&gt;
+&lt;p&gt;The main target of this talk is to motivate companies to contribute their work back to the community. The three presenters are members of successful companies and highlight how their only advertising has always been their contributions to the community.&lt;/p&gt;
+&lt;p&gt;The first presenters talks about the distributions of their sources or revenue. Almost all of his clients come from his contributions to Drupal&lt;/p&gt;
+&lt;p&gt;About 15% of his revenues comes from &#039;community leads&#039;. These are people that see his modules or presentations in conferences and ask him to train their team, do customizations to modules they use, or work with their team in a join project.&lt;/p&gt;
+&lt;p&gt;Another 50% of his revenue comes from &#039;competition&#039;, other Drupal companies that have work over their capacity and see his contributions and ask him to help them with the projects.&lt;/p&gt;
+&lt;p&gt;They spend a percentage of their time to contribute and to research, some of them do a precise tracking of the time spent contributing. So, for example, if in a month they have X hours that they can dedicate to contributing they can estimate hoe many patches they can review or how many bugs in their modules they can fix in the remaining time. They even have an custom application that helps them to track this time.&lt;/p&gt;
+&lt;p&gt;Eric Gundersen from Development Seed talks now. His speech is about the strategy that his company follows and he proposes it as a viable strategy for other companies.&lt;/p&gt;
+&lt;p&gt;This strategy consists of focusing the target of the company in creating products. All the work that is done in client projects must serve to create products that reflect the acquired experience. This is what they have done with Open Atrium, a platform that they created for themselves and that started as a very basic application but that has accumulated the hours of work that they have worked on it on projects for clients that needed the same thing.&lt;/p&gt;
+&lt;p&gt;Another good strategy for companies is what they call &#039;niche focus&#039;, focusing in a very specific field and become experts in that topic. For example, Gundersend&#039;s company has a very good position in the subject of handling feeds and maps (&lt;a href=&quot;http://managingnews.com/&quot;&gt;Managing News&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;Video: &lt;a href=&quot;http://sf2010.drupal.org/conference/sessions/strategies-community-contributions&quot; title=&quot;http://sf2010.drupal.org/conference/sessions/strategies-community-contributions&quot;&gt;http://sf2010.drupal.org/conference/sessions/strategies-community-contri...&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;HIPHOP for PHP&lt;/h3&gt;
+&lt;p&gt;Ponente:&lt;br /&gt;
+Scott MacVicar&lt;/p&gt;
+&lt;p&gt;Very technical talk about HIPHOP that starts with an introduction to it and a general explanation for those that don&#039;t know it.&lt;/p&gt;
+&lt;p&gt;Although it seems that the presenter hasn&#039;t planned to talk about any Drupal specific topics, people soon starts to make questions about how Drupal can be run on HIPHOP, because at this time it&#039;s not possible because Drupal uses some features of PHP that HIPHOP doesn&#039;t support (eval, sessions).&lt;/p&gt;
+&lt;p&gt;Some assumptions are made about how it would be to compile Drupal using HIPHOP.&lt;/p&gt;
+&lt;p&gt;HIPHOP generates an executable binary with the entire web application. This is a static binary, in the sense that it cannot dynamically load modules or external libraries, so we would have to compile the entire Drupal site with all the modules that you want to use. In case you wanted to install a new module you should add the code and recompile again.&lt;/p&gt;
+&lt;p&gt;It doesn&#039;t support lazy loading either. Some of the features that the Drupal menu system has to load files only when needed would not be possible, so the compiled binary would contain all the code from all the modules used.&lt;/p&gt;
+&lt;p&gt;Video: &lt;a href=&quot;http://sf2010.drupal.org/conference/sessions/hiphop-for-php&quot; title=&quot;http://sf2010.drupal.org/conference/sessions/hiphop-for-php&quot;&gt;http://sf2010.drupal.org/conference/sessions/hiphop-for-php&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Drupal hispano meeting&lt;/h3&gt;
+&lt;p&gt;I have met with the group of spanish speaking people which were at Drupalcon. We were about 15, only me from Spain, the rest from latin América.&lt;/p&gt;
+&lt;p&gt;We have talk a lot about how to speed up the adoption of Drupal in the hispanic world and what can we do to develop the community (drupalcamps, etc.).&lt;/p&gt;
+&lt;h3&gt;Microsoft party&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&quot;inline inline-left&quot;&gt;&lt;img src=&quot;/sites/peterlozano.com/files/imagecache/preview/ifa_upload/msparty.jpg&quot; alt=&quot;&quot; title=&quot;Microsoft party&quot;   /&gt;&lt;span class=&quot;caption&quot; style=&quot;width: -2px;&quot;&gt;&lt;strong&gt;Microsoft party&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;I never thought that I would have been at a Microsoft party, even less in the context of a Drupalcon.&lt;/p&gt;
+&lt;p&gt;It seems Microsoft is trying hard to make a number of opensoure project, including Drupal, to work flawlessly on their web platform products (ISS and SQL Server).&lt;/p&gt;
+&lt;p&gt;To sympathize with the opensource community they have put money to sponsor the Drupalcon and do things like organizing a party in a club with free drinks (only the first one) and food.&lt;/p&gt;
+&lt;h3&gt;Session videos&lt;/h3&gt;
+&lt;p&gt;At this time most of the sessions have their video attached in the session page, so I wont list here all that are available.&lt;/p&gt;
+&lt;p&gt;You have the complete list of sessions in the &lt;a href=&quot;http://sf2010.drupal.org/conference/schedule&quot;&gt;schedule&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;Related posts&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.brightlemon.com/blog/day-two-filling-drupalcon-sandwich&quot; title=&quot;http://www.brightlemon.com/blog/day-two-filling-drupalcon-sandwich&quot;&gt;http://www.brightlemon.com/blog/day-two-filling-drupalcon-sandwich&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://oitdesign.ncsu.edu/2010/04/21/drupalcon-2010-day-two/&quot; title=&quot;http://oitdesign.ncsu.edu/2010/04/21/drupalcon-2010-day-two/&quot;&gt;http://oitdesign.ncsu.edu/2010/04/21/drupalcon-2010-day-two/&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;image-clear&quot;&gt;&lt;/div&gt;</description>
+ <category domain="/tags/drupal">drupal</category>
+ <category domain="/tags/drupal-planet">drupal-planet</category>
+ <category domain="/tags/drupalcon">drupalcon</category>
+ <pubDate>Sat, 24 Apr 2010 22:11:51 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">72 at </guid>
+</item>
+<item>
+ <title>Drupalcon San Francisco 2010, day 1</title>
+ <link>/drupalcon-san-francisco-2010-day-1</link>
+ <description>&lt;p&gt;&lt;span class=&quot;inline inline-left&quot;&gt;&lt;img src=&quot;/sites/peterlozano.com/files/imagecache/preview/ifa_upload/showrom_blended_fused.jpg&quot; alt=&quot;&quot; title=&quot;Main conference room&quot;   /&gt;&lt;span class=&quot;caption&quot; style=&quot;width: -2px;&quot;&gt;&lt;strong&gt;Main conference room&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Although first day of Drupalcon is officially on Monday, the Sunday you could register and there were some activites.&lt;/p&gt;
+&lt;p&gt;The conference venue was the Moscone Center, composed of several buildings. In one of them regularly takes place the Apple Developer Conference, where Steve Jobs uses to present it&#039;s latest &#039;one more things&#039;. We were at Moscone south, a building more similar to an airport in size and design.&lt;/p&gt;
+&lt;p&gt;The welcome pack was the poorest of the several Drupalcons I&#039;ve been to, it consisted of a little book with sponsors marketing, session schedule and a guide to eating around the conference venue.&lt;/p&gt;
+&lt;!--break--&gt;&lt;!--break--&gt;&lt;h3&gt;Unconference&lt;/h3&gt;
+&lt;p&gt;There was a series of non-planed sessions not necessarily related to Drupal, although most of them were. It basically was people from several companies showing some innovations and projects in very specific fields. There were very little attendees which allowed to extended debates at the end of the sessions between presenters and attendees.&lt;/p&gt;
+&lt;p&gt;One of the sessions that I (partly) assisted was about image recognition and classification. They had a Drupal site that was capable of recognizing image similarities, find differences, classify them by similitude, and things like that.&lt;/p&gt;
+&lt;p&gt;The wifi connection was really good in any place of the center, although there were very little people. Will it handle the near 3000 people tomorrow?&lt;/p&gt;
+&lt;p&gt;In the evening I went to visit Chinatown, awesome experience.&lt;/p&gt;
+&lt;h3&gt;First (official) day of Drupalcon&lt;/h3&gt;
+&lt;p&gt;It was the first time that I think it may be too many people in a Drupalcon, the company stands were full of people and I was not allowed to enter some sessions because the room was full.&lt;/p&gt;
+&lt;p&gt;The first session was the only one at that hour, a presentation to which almost everyone assisted.&lt;/p&gt;
+&lt;h3&gt;Getting started with Drupal(con)&lt;/h3&gt;
+&lt;p&gt;Presenters: a lot (see session page).&lt;/p&gt;
+&lt;p&gt;There wasn&#039;t room for everyone in the main room so they have setup two more rooms with video streaming from the main room. The presenter asked to raise hands everyone that was new to Drupalcon and those who were new to Drupal in the last year. In both cases a lot of hands were raised.&lt;/p&gt;
+&lt;p&gt;Presenters of this session spoke in turns, each introduced one basic aspect of Drupal. Core, cck, views, taxonomy, etc. The session was too introductory so there isn&#039;t much more to tell.&lt;/p&gt;
+&lt;h3&gt;The Heart of Open Atrium: Context, PURL and Spaces&lt;/h3&gt;
+&lt;p&gt;Presenter:&lt;br /&gt;
+Young Hahn&lt;/p&gt;
+&lt;p&gt;Young Hahn, from Development Seed, presents their strategic modules that they use to build their products, being some of their flagship products Open Atrium and Managing News, created from their experience with clients. Notably, all their modules are published in drupal.org, so we can all use them and it serves as an invaluable promotion for them.&lt;/p&gt;
+&lt;p&gt;This a rather technical session and probably hard to follow if you don&#039;t have previous experience developing Drupal sites. The combination of modules tries to find a general solution to some of the most common problem that they find in each project. Ej: preserving context (menus, blocks, theme, etc.).&lt;/p&gt;
+&lt;p&gt;The modules explained where Context, PURL and Spaces. You can read a short introduction to them and watch the session video on the session page.&lt;/p&gt;
+&lt;p&gt;Session page: &lt;a href=&quot;http://sf2010.drupal.org/conference/sessions/heart-open-atrium-context-purl-and-spaces&quot; title=&quot;http://sf2010.drupal.org/conference/sessions/heart-open-atrium-context-purl-and-spaces&quot;&gt;http://sf2010.drupal.org/conference/sessions/heart-open-atrium-context-p...&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;Dries Keynote&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&quot;inline inline-left&quot;&gt;&lt;img src=&quot;/sites/peterlozano.com/files/imagecache/preview/ifa_upload/dries-mortendk_blended_fused.png&quot; alt=&quot;&quot; title=&quot;Dries keynote&quot;   /&gt;&lt;span class=&quot;caption&quot; style=&quot;width: -2px;&quot;&gt;&lt;strong&gt;Dries keynote&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The near 3000 people is coming in a huge room. I ask myself how many Boeing 747 could you fit in this room, someone comments that it doubles as a storm shelter (&lt;a href=&quot;http://twitter.com/mrf/status/12473605625&quot; title=&quot;http://twitter.com/mrf/status/12473605625&quot;&gt;http://twitter.com/mrf/status/12473605625&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;Dries jumps to the stage, long applause. He does the usual remembering of the first Drupalcons and notes that when he created Drupal he though that no more than ten people will ever use it.&lt;/p&gt;
+&lt;p&gt;He sends greetings to all those that got stuck in Europe because of the volcano event. Seems like mini-drupalcons have been organized in several cities in which attendants meet to watch the live webcast and share notes. The map of &lt;a href=&quot;http://maps.google.com/maps/ms?ie=UTF8&amp;amp;hl=en&amp;amp;source=embed&amp;amp;msa=0&amp;amp;msid=103643908557801084137.0004846f1ed76e97dbd82&amp;amp;ll=52.106505,19.6875&amp;amp;spn=73.07672,177.714844&amp;amp;z=3&quot;&gt;those stuck in Europe&lt;/a&gt; shows in the screen.&lt;/p&gt;
+&lt;p&gt;Announcement of the day, Drupal 8 development will be in git, rip to CVS.&lt;/p&gt;
+&lt;p&gt;He talks now about RDF and the semantic web. It&#039;s something that Dries has given importance in the last Drupalcons, it seems that from Drupal 7 it will have an important role because it could be the first CMS that comes with an API an related modules in core that allow to create sites with RDF metadata. He puts some use cases: an online shop could tag its products with RDF that allows search engines to list them as products with associated metadata, it will perfectly know what is the proce, the product description, the picture, etc., without having to parse the text and use its algorithms to guess all this info.&lt;/p&gt;
+&lt;p&gt;Dries plays a video in which a woman&#039;s voice explains what RDF is while the screen displays some slides.&lt;/p&gt;
+&lt;p&gt;He shows some statistics about critical bugs pending to release Drupal 7, 112, no much less that there were 6 months ago in Paris. At this speed rate they will be all done by June, December in the works case. He proposes to form 100 groups of 30 people (we are 3000) and each group will solve an issue, so we could have all tickets closed in an hour. People laugh, he says &quot;seriously&quot;!&lt;/p&gt;
+&lt;p&gt;According to Drupal 7 stats, there have been more than 700 people contributing patches to this version, but they show that 50% of the code has been written by only 25 persons. He shows a slide with the 20 most active contributors to Drupal core and their supporting organizations (&lt;a href=&quot;http://www.flickr.com/photos/peterlozano/4536272012/&quot;&gt;foto&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;He announces that the next Drupalcon will be at &lt;a href=&quot;http://cph2010.drupal.org/&quot;&gt;Copenhagen&lt;/a&gt;. You an sign up at their web already.&lt;/p&gt;
+&lt;p&gt;He also talks about how some big names (IBM, Microsoft) have been involved in big projects related to Drupal, although many of these projects are private. He notes that Microsoft is going to launch a new PDO driver for SQL Server and that they have a important commitment to make Drupal run in Microsoft&#039;s web platforms. There has even have a Microsoft party in the night.&lt;/p&gt;
+&lt;h3&gt;Objetifiyng PHP&lt;/h3&gt;
+&lt;p&gt;Presenter: Larry Gardfield&lt;/p&gt;
+&lt;p&gt;Talk 100% about programming. In Drupal 6 we already have some modules that have introduced objects in their code (views, panels, … I cannot think of any which is not from merlinofchaos) and in Drupal 7 we have some layer of core objectified.&lt;/p&gt;
+&lt;p&gt;He does a review of the best practices when working with objects, like: use factory classes (pizzahut) instead of using object classes (pizza).&lt;/p&gt;
+&lt;p&gt;A slide notes the fuzziness of the Drupal architecture, different layers of the API overlap and are mixed, we have to build precise boundaries between the subsystems, and that&#039;s where OOP plays an important role, proposing to convert each core subsystem in an object. The code is interesting, we could do things like $menu-&gt;get_item(&#039;"/tags/conference">conference</category>
+ <category domain="/tags/drupal">drupal</category>
+ <category domain="/tags/drupal-planet">drupal-planet</category>
+ <category domain="/tags/drupalcon">drupalcon</category>
+ <pubDate>Sat, 24 Apr 2010 21:20:02 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">71 at </guid>
+</item>
+<item>
+ <title>Trip to San Francisco</title>
+ <link>/trip-san-francisco</link>
+ <description>&lt;p&gt;&lt;!--break--&gt;&lt;!--break--&gt;&lt;p&gt;Putting aside the main subject of my blog which is programming, I&#039;m going to tell a little bit how my trip so San Francisco has gone so far.&lt;/p&gt;
+&lt;h3&gt;The adventure of flying&lt;/h3&gt;
+&lt;p&gt;My flight had the following itinerary: Jerez - Madrid - London - San Francisco. The day before, bad news arrived, &quot;your flight Madrid - London has been cancelled&quot;, due to the &lt;a href=&quot;http://en.wikipedia.org/wiki/2010_eruptions_of_Eyjafjallaj%C3%B6kull&quot;&gt;volcanic ash plume&lt;/a&gt;. I had two options, my first though was to cancel the entire trip and get my money back. But for some reason the american spirit had already get into me and I told myself that I would not surrender  so soon. So the next day I departed to Madrid and there I would see what I can do.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;inline inline-left&quot;&gt;&lt;img src=&quot;/sites/peterlozano.com/files/imagecache/preview/ifa_upload/IMG_3765.jpg&quot; alt=&quot;&quot; title=&quot;Barajas T4&quot;   /&gt;&lt;span class=&quot;caption&quot; style=&quot;width: -2px;&quot;&gt;&lt;strong&gt;Barajas T4&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Madrid-Barajas_Airport&quot;&gt;Barajas&lt;/a&gt; was a chaos, the only option was to wait 3 hours in a line of 200 people with the hope to reroute my flight. The airport employee wanted to get rid of me as soon as possible, telling me that all flights to USA were cancelled or completely booked. So I have to push her and tell a list of american cities that I had seen on the screens. After near 15 minutes searching (and me showing that I would not go without a flight) she found a seat in a flight via Washington, the most incredible thing, it was for the same day. Volcanic ash plume dodged.&lt;/p&gt;
+&lt;p&gt;Once in the plane, seated and ready to take off, a guy approaches me and tells me that I&#039;m in his seat, effectively my boarding card was the same, in fact they had the same name in it, his name. The flight attendant took our tickets and passports and after a while she came back and told me &quot;sr, I&#039;m sorry but you have to leave the plane and go to the boarding gate, so saying indignation words I got out of the plane, fortunately in the boarding gate they fixed everything and I could go back to the plane. Iberia incompetents dodged.&lt;/p&gt;
+&lt;p&gt;Ok, I didn&#039;t realized that in my boarding pass there was the name of an italian guy instead of mine, but neither any of the persons in the four security controls that I had to pass through did realized that the name in the ticket was not the same that in the passport. Like later one of the airport employees told me: &quot;this is the false security that they want to sell us, that only serves so that some security companies make a lot of money&quot;.&lt;/p&gt;
+&lt;p&gt;Once in Washington, I must pass the immigration control. It&#039;s not as bad as some people tells, you can even choose the line so practically you are choosing the person that is going to &quot;examine&quot; you, although been educated and telling the truth should be enough.&lt;/p&gt;
+&lt;p&gt;After an 8 hours flight, pick up the baggage, check-in again, and another flight to San Francisco, all this in very little time, obviously in a more usable and efficient airport than Barajas.&lt;/p&gt;
+&lt;p&gt;I got at San Francisco at 1am, no metro, no bus. Taxi drivers almost jump into me for taking me to downtown, price $50. Asking the airport personnel they told me that there was a door-to-door shared van service in the other floor, price $17, easy to choose.&lt;/p&gt;
+&lt;p&gt;I arrive at the hostel (&lt;a href=&quot;http://www.usahostels.com/sanfrancisco&quot;&gt;USA Hostels San Francisco&lt;/a&gt;) and I just want to sleep, San Francisco downtown by night is a little bit scary.&lt;/p&gt;
+&lt;h3&gt;Touristic walk around&lt;/h3&gt;
+&lt;p&gt;Next day I perfectly knew what I was going to do, go for a walk without any destination, I just wanted to walk and see the city and the country (also this is my first time in US). I did the typical touristic walk that I guess most tourist do.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;inline inline-left&quot;&gt;&lt;img src=&quot;/sites/peterlozano.com/files/imagecache/preview/ifa_upload/IMG_3784.jpg&quot; alt=&quot;&quot; title=&quot;San Francisco streets&quot;   /&gt;&lt;span class=&quot;caption&quot; style=&quot;width: -2px;&quot;&gt;&lt;strong&gt;San Francisco streets&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;More pictures &lt;a href=&quot;http://www.flickr.com/photos/peterlozano/sets/72157623753506689&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;It&#039;s true that everything here is bigger than in Europe, streets, skyscrapers, cars. Specially skyscrapers, I haven&#039;t seen any building like that in Europe. I&#039;m not talking only about the size, the scale of every part of the building is also bigger, its like if giants lived there.&lt;/p&gt;
+&lt;p&gt;Saturday mornings seems like there is a lot of things to see and ways of having fun, markets, attractions, ferrys to Alcatraz, sea lions, a lot of places to eat any kind of food.&lt;/p&gt;
+&lt;p&gt;I only made a mistake, not wearing sport footwear, I killed my feet in one morning, I barely could walk at the end of the day. In the way back to the hostel I entered the Nike town, which is at the same street, an bough the sneakers that I&#039;ll wear the rest of the week.&lt;/p&gt;
+&lt;h3&gt;Drupalcon&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;p&gt;The second day I head to the &lt;a href=&quot;http://en.wikipedia.org/wiki/Moscone_Center&quot;&gt;Moscone Center&lt;/a&gt; where Drupalcon is. More on that in the next post.&lt;/p&gt;
+&lt;div class=&quot;image-clear&quot;&gt;&lt;/div&gt;</description>
+ <comments>/trip-san-francisco#comments</comments>
+ <category domain="/tags/drupalcon">drupalcon</category>
+ <category domain="/tags/san-francisco">san francisco</category>
+ <category domain="/tags/travel">travel</category>
+ <pubDate>Sun, 18 Apr 2010 23:20:07 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">55 at </guid>
+</item>
+<item>
+ <title>Alter Drupal behavior using cookies</title>
+ <link>/alter-drupal-behavior-using-cookies</link>
+ <description>&lt;p&gt;A little trick I started using recently: using cookies to alter Drupal behavior when navigating the site (usually developing or debugging) with a shared user account that should present a different behavior to the rest of the people.&lt;/p&gt;
+&lt;p&gt;Use case. A few developers may be building a site and they all use the admin account for setup tasks. Now one of them doesn&#039;t want to see url aliases because he needs to see node ids in urls for debugging purposes.&lt;/p&gt;
+&lt;p&gt;You could put a code like this in settings.php:&lt;/p&gt;
+&lt;p&gt;&lt;pre&gt;
+function custom_url_rewrite_outbound(&amp;amp;$path, &amp;amp;$options, $original_path) {
+  if ($_COOKIE[&#039;disable_url_aliases&#039;]) {
+    $path = $original_path;
+  }
+}
+&lt;/pre&gt;&lt;/p&gt;
+&lt;p&gt;Now, using a Firefox extension like &lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/6683&quot;&gt;Firecookie&lt;/a&gt; or &lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/60&quot;&gt;Web Developer&lt;/a&gt;, you can add a cookie called &lt;strong&gt;disable_url_aliases&lt;/strong&gt;  in your browser that will disable url aliases only for you, the rest of the developers won&#039;t notice.&lt;/p&gt;
+&lt;!--break--&gt;&lt;!--break--&gt;&lt;p&gt;Other use case is using a different theme.&lt;/p&gt;
+&lt;p&gt;&lt;pre&gt;
+/**
+ * Implementation of hook_init().
+ */
+function project_customizations_init() {
+  global $custom_theme;&lt;/p&gt;
+
+&lt;p&gt;if ($_COOKIE[&#039;custom_theme&#039;]) {
+    $custom_theme = $_COOKIE[&#039;custom_theme&#039;];
+  } 
+}
+&lt;/pre&gt;&lt;/p&gt;
+&lt;p&gt;For this snippet to work you must create the cookie &lt;strong&gt;custom_theme&lt;/strong&gt; with the value set to the name of the theme that you want to use.&lt;/p&gt;
+&lt;p&gt;Other case ideas:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Displaying debug information when navigating as anonymous.&lt;/li&gt;
+&lt;li&gt;Avoid analytics when when navigating as anonymous.&lt;/li&gt;
+&lt;li&gt;Navigate with a different language.&lt;/li&gt;
+&lt;li&gt;Disable cache. Combined with xdebug profiler it allows you to profile anonymous page generation while still keep the cache active for the rest of the users.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I&#039;m sure this list can be made longer. You are welcome to post your ideas in the comments.&lt;/p&gt;
+</description>
+ <comments>/alter-drupal-behavior-using-cookies#comments</comments>
+ <category domain="/tags/cookies">cookies</category>
+ <category domain="/tags/debug">debug</category>
+ <category domain="/tags/development">development</category>
+ <category domain="/tags/drupal">drupal</category>
+ <category domain="/tags/http">http</category>
+ <pubDate>Sat, 14 Nov 2009 12:08:12 +0000</pubDate>
+ <dc:creator>Pedro Lozano</dc:creator>
+ <guid isPermaLink="false">41 at </guid>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,254 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+    "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:cc="http://creativecommons.org/ns#" xml:lang="en" dir="ltr">
+	<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Camera to Drupal, instant image distribution | Pedro Lozano | Drupal developer</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="canonical" href="camera-drupal-instant-image-distribution" />
+<meta name="keywords" content="drupal, camera, tethering, image, distribution, drupal-planet" />
+<meta name="description" content="Method to take a picture with a digital camera (preferably a DSLR) and have it instantly uploaded to a Drupal website where it will be imported as an image node. All these steps will be done automatically. Continuous shutting is also supported." />
+<link rel="shortcut icon" href="sites/peterlozano.com/files/nitobe_favicon.ico" type="image/x-icon" />
+		<link type="text/css" rel="stylesheet" media="all" href="sites/peterlozano.com/files/css/css_8f9c184bc14eb20de6daec1cce00ca0e.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="sites/peterlozano.com/files/css/css_b09f9ffa6d92fd67999f9b0d4fc443f7.css" />
+<link type="text/css" rel="stylesheet" media="print" href="sites/peterlozano.com/files/css/css_45fffe1b0642bf844c10a76f99134ad9.css" />
+<style type="text/css">#masthead{background-image:url(sites/peterlozano.com/themes/nitobe/headers/drupalcon_paris_room.jpg);}</style>
+				<!--[if lt IE 8]>
+			<link type="text/css" rel="stylesheet" media="screen" href="/sites/peterlozano.com/themes/nitobe/styles/fix-ie.css" />
+		<![endif]-->
+	</head>
+	<body class="nitobe not-front not-logged-in page-node node-type-story one-sidebar sidebar-left i18n-en">
+		<div id="page-wrapper" class="clear-block">
+			<div id="header-area" class="container-16">
+					<div id="title-group" class="grid-10">
+			            			            <span id="site-title"><a href="index.html" title="Pedro Lozano">Pedro Lozano</a></span>			            <span id="site-slogan">Drupal developer</span>			        </div><!-- /title-group -->
+			            			        <div id="header-region" class="grid-6">
+    			        	<div id="block-locale-0" class="block block-locale block-header">
+    <ul><li class="en first active"><a href="camera-drupal-instant-image-distribution" class="language-link active">English</a></li>
+<li class="es last"><a href="http://pedrolozano.es/" class="language-link">Español</a></li>
+</ul></div><!-- /block-locale-0 -->
+<hr class="break"/>    			        </div><!-- /header-region -->
+			        			                  		<hr class="break"/>
+          		            		<div id="header-links" class="grid-16">
+            		    <ul id="primary-nav" class="grid-16"><li class="menu-306 first"><a href="index.html" title="Home page">Home</a></li>
+<li class="menu-291 last"><a href="about" title="About">About</a></li>
+</ul>            		                  			<hr class="break"/>
+            		                		              			</div><!-- #header-links -->
+          		          		<div id="masthead" class="grid-16">
+          		              		</div><!-- /masthead -->
+          		<hr class="rule-top grid-16"/>
+			</div><!-- /header-area -->
+			<hr class="break"/>
+			<div id="content-area" class="container-16">
+				<div id="content" class="grid-12">
+					<div class="breadcrumb"><a href="index.html">Home</a></div>																				          				<div id="page-headline" class="clear-block">
+    					    <h1 id="page-title" >Camera to Drupal, instant image distribution</h1>    					                      				<span class="timestamp">24 Jul 2010</span>
+    					              				</div><!-- #page-headline -->
+															<div id="node-75" class="node  node-story clear-block">
+  <div class="content clear-block">
+        	<div class="node-author">Posted by admin</div>
+            <h2>Abstract</h2>
+<p>This posts describes a method to take a picture with a digital camera (preferably a DSLR) and have it instantly uploaded to a Drupal website where it will be imported as an image node. All these steps will be done automatically and you will only need to press the shutter button of your camera for the whole process to start. Continuous shutting is also supported.</p>
+<p><span class="inline inline-none"><img src="sites/peterlozano.com/files/imagecache/preview/ifa_upload/camera2drupal.png" alt="" title="Camera to Drupal workflow"   /><span class="caption" style="width: -2px;"><strong>Camera to Drupal workflow: </strong>Trigger the whole process only by clicking the shutter of your camera.</span></span></p>
+<h2>Preparations</h2>
+<p>You will need to setup some tools in order to have all the software necessary for make this work.</p>
+<ol>
+<li>
+<p>Gphoto2</p>
+<p><a href="http://gphoto.sourceforge.net/">Gphoto2</a> is the command line utility that we will use for connecting the computer to the camera. It supports tethered capture, which is how the process of taking a picture and having it instantly downloaded to your computer is called. Other well known applications like Aperture and Lighroom support tethering but they are not command line scriptable, not opensource and too bloated for what we intend to do here.<br />
+Most used linux distributions have packages for installing gphoto2 including all its dependencies. In Mac you can install it using <a href="http://www.macports.org/">Macports</a> with the command "sudo port install gphoto2".</p>
+</li>
+<li>
+<p>Drupal and Image module</p>
+<p>A Drupal site with the <a href="http://drupal.org/project/image">image</a> module will be needed. You must enable at least the image and image_import modules. They are easy to install and configure. I leave it as an exercise to the reader setup them for image importing from a folder.</p>
+</li>
+</ol>
+<h2>Capturing images with Gphoto2</h2>
+<p>Some previous tips that will save you troubleshooting time:</p>
+<ul>
+<li>
+<p>Use the most recent version of gphoto2, the software has pretty active development with new camera drivers and bugfixes added frequently. I wasn't able to write this post until a recent version of gphoto fixed a bug with my camera.</p>
+</li>
+<li>
+<p>If your computer has any software that automatically launches when you connect your camera it will need to be disabled or finished since it will prevent gphoto from communicating with the camera. There may even be some daemon process that launches in the background and prevents gphoto from working.</p>
+</li>
+<li>
+<p>For example, Mac users will have to kill the process called PTPCamera or it will prevent gphoto from communicating with the camera. The PTPCamera process launches in the background each time you connect your camera to the computer. You can see if the process is running using the "ps ax | grep PTPCamera" command in a terminal. To kill this process you need to execute the command "killall PTPCamera". Do this every time you connect the camera in order to gphoto to work.</p>
+</li>
+<li>
+<p>Disable the camera auto-off feature. Usually cameras have this energy saving feature preconfigured to something like 30 seconds. I recommend to turn this feature off when capturing images from the computer since the camera will turn off if you don't do anything in the configured time and you will have to turn it on again or reconnect it, kill the PTPCamera process (or equivalent), and launch gphoto again. Having this feature disabled will allow you to take pictures without interruptions as long as you (or you batteries) want.</p>
+</li>
+</ul>
+<p>Once you connect the camera to the computer and turn it on you can check if gphoto detects it with:</p>
+<p>[geshifilter-blockcode]&#10;$ gphoto2 --auto-detect&#10;Model                          Port                                            &#10;----------------------------------------------------------&#10;Canon EOS 450D (PTP mode)      usb:            &#10;Canon EOS 450D (PTP mode)      usb:036,003&#10;[/geshifilter-blockcode]</p>
+<p>If you dont see your camera listed you should review the previous tips mentioned above. To see whether your camera is supported by gphoto2 you can use:</p>
+<p>[geshifilter-blockcode]&#10;$ gphoto2 --list-cameras&#10;Number of supported cameras: 1245&#10;Supported cameras:&#10;        &quot;Achiever Digital Adc65&quot;&#10;        &quot;AEG Snap 300&quot;&#10;        &quot;Agfa ePhoto 1280&quot;&#10;[...]&#10;[/geshifilter-blockcode]</p>
+<p>A long list of supported camera models will show. (grep is your friend).</p>
+<p>Gphoto has several commands that you can test:</p>
+<ul>
+<li>gphoto2 --capture-image<br />
+Will capture an image an leave it in the memory card on the camera.</li>
+<li>gphoto2 --capture-image-and-download<br />
+Will capture an image and download it immediately to the current folder</li>
+</ul>
+<p>But the most interesting command is:</p>
+<ul>
+<li>gphoto --wait-event-and-download</li>
+</ul>
+<p>renamed in recent versions to:</p>
+<ul>
+<li>gphoto2 --capture-tethered</li>
+</ul>
+<p>This command waits for you to take a picture by pressing the shutter button on the camera and then the image is automatically downloaded to the current folder. The command keeps waiting for more events (more pictures) until you interrupt it with CTRL-C (you can also pass the amount of time to wait as an argument).</p>
+<h2>Uploading the pictures to the server</h2>
+<p>The gphoto option that makes the magic here is --hook-script. This options allows to specify an script that will be executed after the image has been downloaded and will receive the file name as an argument.</p>
+<p>So if you do something like this:</p>
+<p>[geshifilter-blockcode]&#10;$ gphoto2 --capture-tethered --hook-script=test-hook.sh&#10;[/geshifilter-blockcode]</p>
+<p>gphoto will wait for you to take pictures with the camera and after each picture is downloaded to the computer it will execute the test-hook.sh script passing the filename as an argument.</p>
+<p>There is a stub test-hook.sh script in gphoto documentation folder (ie: /usr/share/doc/gphoto2). We will copy this stub script to the current folder and modify it to make it upload the picture to the server where our Drupal site is installed. Actually the file must be uploaded to the folder where the image_import module is configured to take the images from (config at admin/settings/image/image_import).</p>
+<p>Depending on how you wish to upload the files to the server the commands to include in the script will be different. I will use SCP with public key authentication to upload the files. You may opt for FTP using wget, curl or ncftpput.</p>
+<p>The final test-hook.sh script will look like this:</p>
+<p>[geshifilter-bash]&#10;#!/bin/sh&#10;self=&#96;basename $0&#96;&#10;&#10;case &quot;$ACTION&quot; in&#10;    init)&#10;  echo &quot;$self: INIT&quot;&#10;  # exit 1 # non-null exit to make gphoto2 call fail&#10;  ;; &#10;    start)&#10;  echo &quot;$self: START&quot;&#10;  ;;&#10;    download)&#10;  echo &quot;$self: DOWNLOAD to $ARGUMENT&quot;&#10;&#10;  # Upload the image file to the server&#10;  DEST = example.com:/var/www/images.example.com/files/tmp/image/&#10;  scp $ARGUMENT $dest&#10;&#10;  # Call the image importing script&#10;  wget -O - -q \&#10;    &quot;http://images.example.com/image-cap.php?filename=$ARGUMENT&quot;&#10;  ;;&#10;    stop)&#10;  echo &quot;$self: STOP&quot;&#10;  ;;&#10;    *)&#10;  echo &quot;$self: Unknown action: $ACTION&quot;&#10;  ;;&#10;esac&#10;&#10;exit 0&#10;[/geshifilter-bash]</p>
+<h2>Importing the uploaded images</h2>
+<p>I will explain now the wget part of the previous script, this is the most tricky part of the whole process.</p>
+<p>When you upload the files to your server you need some way to tell the Drupal site: "hey, I've uploaded these files, import them to nodes". You can do this from the user interface of the "image_import" module but we want to make it automatic so we need another way.</p>
+<p>The simplest way to do this is to write a php script that will invoke the image module function for importing images. The script will look something like this:</p>
+<p>[geshifilter-drupal6]&#10;&lt;?php&#10;&#10;require_once &#039;./includes/bootstrap.inc&#039;;&#10;drupal_bootstrap(DRUPAL_BOOTSTRAP_FULL);&#10;&#10;$filepath = &#039;sites/images.example.com/files/tmp/image/&#039;. $_GET[&#039;filename&#039;];&#10;&#10;global $user;&#10;# Impersonate user with &#039;create images&#039; permission&#10;$uid = 3;&#10;$user = user_load($uid);&#10;&#10;if (!empty($filepath) &amp;&amp; file_exists($filepath)) {&#10;  if ($node = image_create_node_from($filepath)) {&#10;    echo &quot;NODE: $node-&gt;nid : $node-&gt;title : CREATED\n&quot;;&#10;  }&#10;}&#10;&#10;?&gt;&#10;[/geshifilter-drupal6]</p>
+<p>The $uid variable must be set to the uid of a user with the 'create images' permission.</p>
+<p>The $filepath variable assignment must also be modified to point to the directory where the images were uploaded.</p>
+<p>You can also pass other arguments to the image_create_node_from function, like the taxonomy term of the gallery where you want the pictures archived (see image.module).</p>
+<p>Save this script in the Drupal installation root directory (where index.php is). I named it image-cap.php but you should use another name so no one except you knows how to execute it.</p>
+<p>And this is where the wget part of the test-hook.sh script comes in:</p>
+<p>[geshifilter-blockcode]&#10;wget -O - -q \&#10; &quot;http://images.example.com/image-cap.php?filename=$ARGUMENT&quot;&#10;[/geshifilter-blockcode]</p>
+<p>The command just calls the image-cap.php script in your server and pass the filename of the image that was just uploaded. The image-cap.php scripts will take this file and convert it to an image node.</p>
+<h2>Launching the whole process</h2>
+<p>Once you have configured everything as explained above, you should be able to launch:</p>
+<p>[geshifilter-blockcode]&#10;$ gphoto2 --capture-tethered --hook-script=test-hook.sh&#10;[/geshifilter-blockcode]</p>
+<p>and each time you press the shutter button of your camera a picture will be taken, downloaded to the computer, uploaded to the server and imported into the Drupal site as an image node.</p>
+<p>Gphoto works nicely queueing several pictures so you can take as many pictures or use continuous shooting without having to wait for the process to finish to take another picture, they will be nicely processed in sequence.</p>
+<p>The output should look something like this:</p>
+<p>[geshifilter-blockcode]&#10;$ gphoto2 --capture-tethered --force-overwrite --hook-script=test-hook.sh &#10;test-hook.sh: INIT                                                             &#10;test-hook.sh: START&#10;Waiting for events from camera. Press Ctrl-C to abort.&#10;Saving file as capt0000.jpg                                                    &#10;test-hook.sh: DOWNLOAD to capt0000.jpg&#10;capt0000.jpg                     100%  544KB 543.8KB/s   00:00    &#10;NODE: 141 : capt0000.jpg : CREATED&#10;Deleting &#039;capt0000.jpg&#039; from folder &#039;/&#039;...&#10;[/geshifilter-blockcode]</p>
+<p>TIP: You may be insterested in setting the resolution of your camera to a low value since publishing pictures for the web doesn't require a high resolution and it will take more time to upload them which is bad if you want instant publishing.</p>
+<h2>Conclusion</h2>
+<p>Sport events, conference session or keynote live blogging, you name it... There are several situations in which instant publishing of your pictures may be insteresting and have a competitive advantage if you are a professional.</p>
+<p>With the method described here you can achieve instant distribution of your pictures by using only opensource software.</p>
+<p>The proccess can be adapted to other CMS choices and expanded for more extensive processing of images (watermarking, rotation) or further distribution of the created media.</p>
+<div class="image-clear"></div>  </div>
+      <div class="meta">
+          </div>
+  </div> <!-- node -->
+<div id="block-disqus-disqus_comments" class="block block-disqus block-content">
+    <div id="disqus_thread"></div><noscript><div class="disqus-noscript"><a href="http://peterlozano.disqus.com/?url=http%3A%2F%2Fpeterlozano.com%2Fcamera-drupal-instant-image-distribution">View the discussion thread.</a></div></noscript></div><!-- /block-disqus-disqus_comments -->
+<hr class="break"/>				</div><!-- /content -->
+									<div id="left-sidebar" class="grid-4">
+					  <div id="block-block-5" class="block block-block block-left">
+    <ul class="servicelist">
+<li><a class="service drupalorg" href="http://drupal.org/user/123766" rel="me nofollow">drupal.org</a></li>
+<li><a class="service linkedin" href="http://www.linkedin.com/in/peterlozano" rel="me nofollow">LinkedIn</a></li>
+<li><a class="service twitter" href="http://www.twitter.com/peterlozano" rel="me nofollow">Twitter</a></li>
+<li><a class="service googleprofile" href="http://www.google.com/profiles/peterlozano" rel="me nofollow">Google+</a></li>
+<li><a class="service flickr" href="http://www.flickr.com/photos/peterlozano" rel="me nofollow">Flickr</a></li>
+</ul>
+</div><!-- /block-block-5 -->
+<hr class="break"/><div id="block-views-tracker-block_1" class="block block-views block-left">
+    	<h2>Recent posts</h2>
+    <div class="view view-tracker view-id-tracker view-display-id-block_1 view-dom-id-1">
+    
+  
+  
+      <div class="view-content">
+      <div class="item-list">
+    <ul>
+          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="symfony-drupal-8-related-issues-posts">Timeline of Symfony in Drupal 8 related issues and posts</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-2 views-row-even">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="barcelona-drupal-developer-days-2012-review">Barcelona Drupal Developer Days 2012 Review</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-3 views-row-odd">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="camera-drupal-instant-image-distribution" class="active">Camera to Drupal, instant image distribution</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-4 views-row-even">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="drupalcon-san-francisco-2010-day-3">Drupalcon San Francisco 2010, day 3</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-5 views-row-odd">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="drupalcon-san-francisco-2010-day-2">Drupalcon San Francisco 2010, day 2</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-6 views-row-even">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="drupalcon-san-francisco-2010-day-1">Drupalcon San Francisco 2010, day 1</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-7 views-row-odd">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="trip-san-francisco">Trip to San Francisco</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-8 views-row-even views-row-last">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="alter-drupal-behavior-using-cookies">Alter Drupal behavior using cookies</a></span>
+  </div>
+</li>
+      </ul>
+</div>    </div>
+  
+  
+  
+  
+  
+  
+</div> </div><!-- /block-views-tracker-block_1 -->
+<hr class="break"/>					</div><!-- /left-sidebar -->
+											</div><!-- /content-area -->
+			<hr class="break"/>
+			<div id="bottom-blocks" class="container-16">
+				<hr class="rule-bottom grid-16"/>
+				<div id="bottom-left" class="grid-4">
+					<div id="block-creativecommons-site_license" class="block block-creativecommons block-bottom_left">
+    
+<!--Creative Commons Site License-->
+
+<div class="creativecommons">
+		<a href="http://creativecommons.org/licenses/by/4.0/" rel="license"><img src="sites/peterlozano.com/modules/creativecommons/images/buttons/large/by.png" style="border-width: 0pt;" title="Creative Commons Attribution 4.0 International" alt="Creative Commons Attribution 4.0 International"/></a><br/>This <span rel="dc:type" href="http://purl.org/dc/dcmitype/">Work</span>, <a rel="cc:attributionURL" href="index.html" property="dc:title">Pedro Lozano</a>, is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International license</a>, although certain works referenced herein may be separately licensed.
+</div>
+<!--/Creative Commons Site License-->
+</div><!-- /block-creativecommons-site_license -->
+<hr class="break"/>				</div><!-- /bottom-left -->
+				<div id="bottom-center-left" class="grid-4">
+									</div><!-- /bottom-center-left -->
+				<div id="bottom-center-right" class="grid-4">
+									</div><!-- /bottom-center-right -->
+				<div id="bottom-right" class="grid-4">
+									</div><!-- /bottom-right -->
+			</div><!-- /bottom-blocks -->
+			<hr class="break"/>
+			<div id="footer-area" class="container-16">
+				<hr class="rule-top grid-16"/>
+				<div id="footer" class="grid-16">
+					<a href="http://drupal.org/project/nitobe">Nitobe</a> theme by <a href="http://shannonlucas.com">Shannon Lucas</a>.				</div><!-- /footer -->
+			</div><!-- /footer-area -->
+			<hr class="break"/>
+		</div><!-- /page-wrapper -->
+		<script type="text/javascript" src="sites/peterlozano.com/files/js/js_b17208f07c060289d3df9aa05980b2b5.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","dhtmlMenu":{"slide":"slide","clone":"clone"},"googleanalytics":{"trackOutgoing":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"},"disqus":{"url":"http:\/\/peterlozano.com\/camera-drupal-instant-image-distribution","title":"Camera to Drupal, instant image distribution","identifier":"node\/75","shortname":"peterlozano"}});
+//--><!]]>
+</script>
+		<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-9229997-1"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+	</body>
+</html>

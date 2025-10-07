@@ -1,0 +1,223 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+    "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:cc="http://creativecommons.org/ns#" xml:lang="en" dir="ltr">
+	<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Drupalcon San Francisco 2010, day 3 | Pedro Lozano | Drupal developer</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="canonical" href="drupalcon-san-francisco-2010-day-3" />
+<meta name="keywords" content="drupal, drupal-planet, drupalcon" />
+<meta name="description" content="Notes about the third and last day at Drupalcon San Francisco 2010." />
+<style type="text/css">#masthead{background-image:url(sites/peterlozano.com/themes/nitobe/headers/ca-plate.jpg);}</style>
+
+<link rel="shortcut icon" href="sites/peterlozano.com/files/nitobe_favicon.ico" type="image/x-icon" />
+		<link type="text/css" rel="stylesheet" media="all" href="sites/peterlozano.com/files/css/css_8f9c184bc14eb20de6daec1cce00ca0e.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="sites/peterlozano.com/files/css/css_b09f9ffa6d92fd67999f9b0d4fc443f7.css" />
+<link type="text/css" rel="stylesheet" media="print" href="sites/peterlozano.com/files/css/css_45fffe1b0642bf844c10a76f99134ad9.css" />
+				<!--[if lt IE 8]>
+			<link type="text/css" rel="stylesheet" media="screen" href="/sites/peterlozano.com/themes/nitobe/styles/fix-ie.css" />
+		<![endif]-->
+	</head>
+	<body class="nitobe not-front not-logged-in page-node node-type-story one-sidebar sidebar-left i18n-en">
+		<div id="page-wrapper" class="clear-block">
+			<div id="header-area" class="container-16">
+					<div id="title-group" class="grid-10">
+			            			            <span id="site-title"><a href="index.html" title="Pedro Lozano">Pedro Lozano</a></span>			            <span id="site-slogan">Drupal developer</span>			        </div><!-- /title-group -->
+			            			        <div id="header-region" class="grid-6">
+    			        	<div id="block-locale-0" class="block block-locale block-header">
+    <ul><li class="en first active"><a href="drupalcon-san-francisco-2010-day-3" class="language-link active">English</a></li>
+<li class="es last"><a href="http://pedrolozano.es/drupalcon-san-francisco-2010-dia-3" class="language-link">Español</a></li>
+</ul></div><!-- /block-locale-0 -->
+<hr class="break"/>    			        </div><!-- /header-region -->
+			        			                  		<hr class="break"/>
+          		            		<div id="header-links" class="grid-16">
+            		    <ul id="primary-nav" class="grid-16"><li class="menu-306 first"><a href="index.html" title="Home page">Home</a></li>
+<li class="menu-291 last"><a href="about" title="About">About</a></li>
+</ul>            		                  			<hr class="break"/>
+            		                		              			</div><!-- #header-links -->
+          		          		<div id="masthead" class="grid-16">
+          		    
+          		</div><!-- /masthead -->
+          		<hr class="rule-top grid-16"/>
+			</div><!-- /header-area -->
+			<hr class="break"/>
+			<div id="content-area" class="container-16">
+				<div id="content" class="grid-12">
+					<div class="breadcrumb"><a href="index.html">Home</a></div>																				          				<div id="page-headline" class="clear-block">
+    					    <h1 id="page-title" >Drupalcon San Francisco 2010, day 3</h1>    					                      				<span class="timestamp">30 Apr 2010</span>
+    					              				</div><!-- #page-headline -->
+															<div id="node-73" class="node  node-story clear-block">
+  <div class="content clear-block">
+        	<div class="node-author">Posted by admin</div>
+            <p><span class="inline inline-left"><img src="sites/peterlozano.com/files/imagecache/preview/ifa_upload/IMG_4078.jpg" alt="" title="Flags at the Moscone Center entrance"   /><span class="caption" style="width: -2px;"><strong>Flags at the Moscone Center entrance</strong></span></span></p>
+<p>Third and last day of Drupalcon, we continue to see interesting things.</p>
+<h3>Instant Dynamic Forms with #states</h3>
+<p>Presenter:<br />
+Konstantin Käfer</p>
+<p>This is one of the most interesting improvements around the form API in Drupal 7.</p>
+<p>It provides you with a method to create dynamic forms without writing javascript, and here 'dynamic' does not refer to the ahah features already present in Drupal 6, we are now talking about things like making new elements appear in the form when a checkbox is selected, without having to do any request to the server.</p>
+<p>In code, the basic usage takes form of dependencies. You describe which fields depends on others, what kind of dependency they have and what's the action to run when the dependency is met.</p>
+<p>It also servers to dynamically validate the introduced data, for example with phone or credit cards number formats, all this without making ajax calls, with javascript but without having to write javascript, just specifying regular expressions in the form API.</p>
+<p>You can also change the 'required' property of fields depending on the values of others.</p>
+<p>There is this other new concept called 'triggers' (not related to the triggers functionality in Drupal 6) which allows to do more advanced things but that require to write some javascript. Por example, disable a field when certain string is written on it.</p>
+<p>Session page: <a href="http://sf2010.drupal.org/conference/sessions/instant-dynamic-forms-states" title="http://sf2010.drupal.org/conference/sessions/instant-dynamic-forms-states">http://sf2010.drupal.org/conference/sessions/instant-dynamic-forms-states</a></p>
+<h3>Advanced drush</h3>
+<p><span class="inline inline-left"><img src="sites/peterlozano.com/files/imagecache/preview/ifa_upload/IMG_4149.jpg" alt="" title="Advanced drush session"   /><span class="caption" style="width: -2px;"><strong>Advanced drush session</strong></span></span></p>
+<p>Presenters:<br />
+Moshe Weitzman<br />
+Owen Barton<br />
+Adrian Rossouw<br />
+Greg Anderson</p>
+<p>In this session we are introduced with a series of new features that are been developed around the drush command.</p>
+<p>Aliases, very useful. Now you can execute drush commands over any Drupal install without having to be inside the site directory (sites/...) or having to specify a drushrc.php file. For example you can do: drush @dev status, where #dev is the alias defined in a global location which contains the config data for all your sites so drush knows which site you are referring to.</p>
+<p>Remote sites. We can execute drush commands on Drupal sites located in other servers. Drush automatically access the server using ssh and executes the command. For authentication it's recommended (and its the default) to use the ssh public key system, although you can also force the use of passwords.</p>
+<p>You can now run commands in several sites at the same time, using the alias @sites or a list of site aliases.</p>
+<p>Aliases for commands. Example, alias cc for 'cache clear', you can even specify which cache you want to clear (menu, theme, page, etc), instead of all like its done in current versions.</p>
+<p>Interactive drush shell, with aliases for the most used directories in a drupal install. It's like a drush shell, inside of it you have specific commands to jump to the different directories that you can find in every drupal install.</p>
+<p>New 'hook' command that allows you to see the hook code. It first presents a list of modules that implement a given hook, you select one and it shows you the code.</p>
+<p>They continue with a fast tutorial on how to write drush commands, hooks that you can implements, etc.</p>
+<p>The first example is a command 'drush make.me-a-sandwich', which ends up showing an ascii sandwich on the terminal.</p>
+<p>Session page: <a href="http://sf2010.drupal.org/conference/sessions/advanced-drush" title="http://sf2010.drupal.org/conference/sessions/advanced-drush">http://sf2010.drupal.org/conference/sessions/advanced-drush</a></p>
+<h3>The story of RDF in Drupal 7 and what it means for the Web at large</h3>
+<p><span class="inline inline-left"><img src="sites/peterlozano.com/files/imagecache/preview/ifa_upload/IMG_4177.jpg" alt="" title="Videoconferencing the session"   /><span class="caption" style="width: -2px;"><strong>Videoconferencing the session</strong></span></span></p>
+<p>Presenters:<br />
+Stéphane Corlosquet<br />
+Lin Clark</p>
+<p>One of the presenters of this session could not go to Drupalcon and got stuck in Europe because of the volcano, so she is connected by videoconferencing and she starts to explain some slides.</p>
+<p>It may be hard to get when you are first introduced to RDF, but applications are very interesting.</p>
+<p>She starts explaining some basic notions about RDF, introducing 'resources', ex: document, company, person. The different kind of resources and the possibility of describing properties about each one.</p>
+<p>The presenters exposes using a comparative table the advantages of RDF over other meta markup formats like Microformats.</p>
+<p>Drupal 7 has RDF capabilities integrated into core and some of the more popular RDF schemas are supported 'out of the bos', like foaf, soc, dc.</p>
+<p>Session page: <a href="http://sf2010.drupal.org/conference/sessions/story-rdf-drupal7-and-what-it-means-web-large" title="http://sf2010.drupal.org/conference/sessions/story-rdf-drupal7-and-what-it-means-web-large">http://sf2010.drupal.org/conference/sessions/story-rdf-drupal7-and-what-...</a></p>
+<h3>Closing session and next Drupalcons</h3>
+<p><span class="inline inline-left"><img src="sites/peterlozano.com/files/imagecache/preview/ifa_upload/IMG_4215.jpg" alt="" title="Morten announcing Drupalcon Copenhagen"   /><span class="caption" style="width: -2px;"><strong>Morten announcing Drupalcon Copenhagen</strong></span></span></p>
+<p>They now make a review of the numbers that this conference has handled, even coffee galons have been counted. Economically they have moved amounts over the million dollars, having obtained profits over $300,000 that goes to the Drupal Association.</p>
+<p>In the closing session they spend some time to announce where the next drupalistas meet ups will be.</p>
+<p>Morten is in charge of announcing that the next Drupalcon will be in Copenhagen six months from now. The web is at <a href="http://cph2010.drupal.org" title="http://cph2010.drupal.org">http://cph2010.drupal.org</a>. You can register starting today.</p>
+<p><span class="inline inline-left"><img src="sites/peterlozano.com/files/imagecache/preview/ifa_upload/IMG_4223.jpg" alt="" title="Drupalcon Chicago 2011 logo"   /><span class="caption" style="width: -2px;"><strong>Drupalcon Chicago 2011 logo</strong></span></span></p>
+<p>And for the next year, again at the Unites States, Drupalcon will be in Chicago. The announcement is done by Tiffany Farris, from palantir.net, that will lead the organization. It seems that they are preparing a very original Drupalcon. They are going to lease several entire floors in a hotel in the middle of downtown and Drupalcon will take place there. Web: <a href="http://chicago2011.drupal.org" title="http://chicago2011.drupal.org">http://chicago2011.drupal.org</a></p>
+<h3>Party (aka. more networking)</h3>
+<p><span class="inline inline-left"><img src="sites/peterlozano.com/files/imagecache/preview/ifa_upload/IMG_4263.jpg" alt="" title="San Franciso skyline"   /><span class="caption" style="width: -2px;"><strong>San Franciso skyline</strong></span></span></p>
+<p>Like every night Drupalcon has organized a private party, this time at Mission, a little more far appart than the previous days, so they have setup free busses so people can go there and back. The club has three floors and a amazing view of the city skyline.</p>
+<h3>Related posts</h3>
+<p><a href="http://oitdesign.ncsu.edu/2010/04/22/drupalcon-2010-day-three/" title="http://oitdesign.ncsu.edu/2010/04/22/drupalcon-2010-day-three/">http://oitdesign.ncsu.edu/2010/04/22/drupalcon-2010-day-three/</a></p>
+<div class="image-clear"></div>  </div>
+      <div class="meta">
+                <div class="links"></div>
+          </div>
+  </div> <!-- node -->
+<div id="block-disqus-disqus_comments" class="block block-disqus block-content">
+    <div id="disqus_thread"></div><noscript><div class="disqus-noscript"><a href="http://peterlozano.disqus.com/?url=http%3A%2F%2Fpeterlozano.com%2Fdrupalcon-san-francisco-2010-day-3">View the discussion thread.</a></div></noscript></div><!-- /block-disqus-disqus_comments -->
+<hr class="break"/>				</div><!-- /content -->
+									<div id="left-sidebar" class="grid-4">
+					  <div id="block-block-5" class="block block-block block-left">
+    <ul class="servicelist">
+<li><a class="service drupalorg" href="http://drupal.org/user/123766" rel="me nofollow">drupal.org</a></li>
+<li><a class="service linkedin" href="http://www.linkedin.com/in/peterlozano" rel="me nofollow">LinkedIn</a></li>
+<li><a class="service twitter" href="http://www.twitter.com/peterlozano" rel="me nofollow">Twitter</a></li>
+<li><a class="service googleprofile" href="http://www.google.com/profiles/peterlozano" rel="me nofollow">Google+</a></li>
+<li><a class="service flickr" href="http://www.flickr.com/photos/peterlozano" rel="me nofollow">Flickr</a></li>
+</ul>
+</div><!-- /block-block-5 -->
+<hr class="break"/><div id="block-views-tracker-block_1" class="block block-views block-left">
+    	<h2>Recent posts</h2>
+    <div class="view view-tracker view-id-tracker view-display-id-block_1 view-dom-id-1">
+    
+  
+  
+      <div class="view-content">
+      <div class="item-list">
+    <ul>
+          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="symfony-drupal-8-related-issues-posts">Timeline of Symfony in Drupal 8 related issues and posts</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-2 views-row-even">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="barcelona-drupal-developer-days-2012-review">Barcelona Drupal Developer Days 2012 Review</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-3 views-row-odd">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="camera-drupal-instant-image-distribution">Camera to Drupal, instant image distribution</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-4 views-row-even">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="drupalcon-san-francisco-2010-day-3" class="active">Drupalcon San Francisco 2010, day 3</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-5 views-row-odd">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="drupalcon-san-francisco-2010-day-2">Drupalcon San Francisco 2010, day 2</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-6 views-row-even">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="drupalcon-san-francisco-2010-day-1">Drupalcon San Francisco 2010, day 1</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-7 views-row-odd">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="trip-san-francisco">Trip to San Francisco</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-8 views-row-even views-row-last">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="alter-drupal-behavior-using-cookies">Alter Drupal behavior using cookies</a></span>
+  </div>
+</li>
+      </ul>
+</div>    </div>
+  
+  
+  
+  
+  
+  
+</div> </div><!-- /block-views-tracker-block_1 -->
+<hr class="break"/>					</div><!-- /left-sidebar -->
+											</div><!-- /content-area -->
+			<hr class="break"/>
+			<div id="bottom-blocks" class="container-16">
+				<hr class="rule-bottom grid-16"/>
+				<div id="bottom-left" class="grid-4">
+					<div id="block-creativecommons-site_license" class="block block-creativecommons block-bottom_left">
+    
+<!--Creative Commons Site License-->
+
+<div class="creativecommons">
+		<a href="http://creativecommons.org/licenses/by/4.0/" rel="license"><img src="sites/peterlozano.com/modules/creativecommons/images/buttons/large/by.png" style="border-width: 0pt;" title="Creative Commons Attribution 4.0 International" alt="Creative Commons Attribution 4.0 International"/></a><br/>This <span rel="dc:type" href="http://purl.org/dc/dcmitype/">Work</span>, <a rel="cc:attributionURL" href="index.html" property="dc:title">Pedro Lozano</a>, is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International license</a>, although certain works referenced herein may be separately licensed.
+</div>
+<!--/Creative Commons Site License-->
+</div><!-- /block-creativecommons-site_license -->
+<hr class="break"/>				</div><!-- /bottom-left -->
+				<div id="bottom-center-left" class="grid-4">
+									</div><!-- /bottom-center-left -->
+				<div id="bottom-center-right" class="grid-4">
+									</div><!-- /bottom-center-right -->
+				<div id="bottom-right" class="grid-4">
+									</div><!-- /bottom-right -->
+			</div><!-- /bottom-blocks -->
+			<hr class="break"/>
+			<div id="footer-area" class="container-16">
+				<hr class="rule-top grid-16"/>
+				<div id="footer" class="grid-16">
+					<a href="http://drupal.org/project/nitobe">Nitobe</a> theme by <a href="http://shannonlucas.com">Shannon Lucas</a>.				</div><!-- /footer -->
+			</div><!-- /footer-area -->
+			<hr class="break"/>
+		</div><!-- /page-wrapper -->
+		<script type="text/javascript" src="sites/peterlozano.com/files/js/js_b17208f07c060289d3df9aa05980b2b5.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","dhtmlMenu":{"slide":"slide","clone":"clone"},"googleanalytics":{"trackOutgoing":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"},"disqus":{"url":"http:\/\/peterlozano.com\/drupalcon-san-francisco-2010-day-3","title":"Drupalcon San Francisco 2010, day 3","identifier":"node\/73","shortname":"peterlozano"}});
+//--><!]]>
+</script>
+		<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-9229997-1"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+	</body>
+</html>

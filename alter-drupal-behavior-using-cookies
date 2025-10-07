@@ -1,0 +1,202 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+    "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:cc="http://creativecommons.org/ns#" xml:lang="en" dir="ltr">
+	<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Alter Drupal behavior using cookies | Pedro Lozano | Drupal developer</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="canonical" href="alter-drupal-behavior-using-cookies" />
+<meta name="keywords" content="cookies, debug, development, drupal, http" />
+<meta name="description" content="How to use cookies to alter drupal behavior when using a shared or anonymous account." />
+<link rel="shortcut icon" href="sites/peterlozano.com/files/nitobe_favicon.ico" type="image/x-icon" />
+		<link type="text/css" rel="stylesheet" media="all" href="sites/peterlozano.com/files/css/css_8f9c184bc14eb20de6daec1cce00ca0e.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="sites/peterlozano.com/files/css/css_b09f9ffa6d92fd67999f9b0d4fc443f7.css" />
+<link type="text/css" rel="stylesheet" media="print" href="sites/peterlozano.com/files/css/css_45fffe1b0642bf844c10a76f99134ad9.css" />
+<style type="text/css">#masthead{background-image:url(sites/peterlozano.com/themes/nitobe/headers/drupalcon_paris_room.jpg);}</style>
+				<!--[if lt IE 8]>
+			<link type="text/css" rel="stylesheet" media="screen" href="/sites/peterlozano.com/themes/nitobe/styles/fix-ie.css" />
+		<![endif]-->
+	</head>
+	<body class="nitobe not-front not-logged-in page-node node-type-story one-sidebar sidebar-left i18n-en">
+		<div id="page-wrapper" class="clear-block">
+			<div id="header-area" class="container-16">
+					<div id="title-group" class="grid-10">
+			            			            <span id="site-title"><a href="index.html" title="Pedro Lozano">Pedro Lozano</a></span>			            <span id="site-slogan">Drupal developer</span>			        </div><!-- /title-group -->
+			            			        <div id="header-region" class="grid-6">
+    			        	<div id="block-locale-0" class="block block-locale block-header">
+    <ul><li class="en first active"><a href="alter-drupal-behavior-using-cookies" class="language-link active">English</a></li>
+<li class="es last"><a href="http://pedrolozano.es/alterar-comportamiento-drupal-usando-cookies" class="language-link">Español</a></li>
+</ul></div><!-- /block-locale-0 -->
+<hr class="break"/>    			        </div><!-- /header-region -->
+			        			                  		<hr class="break"/>
+          		            		<div id="header-links" class="grid-16">
+            		    <ul id="primary-nav" class="grid-16"><li class="menu-306 first"><a href="index.html" title="Home page">Home</a></li>
+<li class="menu-291 last"><a href="about" title="About">About</a></li>
+</ul>            		                  			<hr class="break"/>
+            		                		              			</div><!-- #header-links -->
+          		          		<div id="masthead" class="grid-16">
+          		              		</div><!-- /masthead -->
+          		<hr class="rule-top grid-16"/>
+			</div><!-- /header-area -->
+			<hr class="break"/>
+			<div id="content-area" class="container-16">
+				<div id="content" class="grid-12">
+					<div class="breadcrumb"><a href="index.html">Home</a></div>																				          				<div id="page-headline" class="clear-block">
+    					    <h1 id="page-title" >Alter Drupal behavior using cookies</h1>    					                      				<span class="timestamp">14 Nov 2009</span>
+    					              				</div><!-- #page-headline -->
+															<div id="node-41" class="node  node-story clear-block">
+  <div class="content clear-block">
+        	<div class="node-author">Posted by Pedro Lozano</div>
+            <p>A little trick I started using recently: using cookies to alter Drupal behavior when navigating the site (usually developing or debugging) with a shared user account that should present a different behavior to the rest of the people.</p>
+<p>Use case. A few developers may be building a site and they all use the admin account for setup tasks. Now one of them doesn't want to see url aliases because he needs to see node ids in urls for debugging purposes.</p>
+<p>You could put a code like this in settings.php:</p>
+<p><pre>
+function custom_url_rewrite_outbound(&amp;$path, &amp;$options, $original_path) {
+  if ($_COOKIE['disable_url_aliases']) {
+    $path = $original_path;
+  }
+}
+</pre></p>
+<p>Now, using a Firefox extension like <a href="https://addons.mozilla.org/en-US/firefox/addon/6683">Firecookie</a> or <a href="https://addons.mozilla.org/en-US/firefox/addon/60">Web Developer</a>, you can add a cookie called <strong>disable_url_aliases</strong>  in your browser that will disable url aliases only for you, the rest of the developers won't notice.</p>
+<p>Other use case is using a different theme.</p>
+<p><pre>
+/**
+ * Implementation of hook_init().
+ */
+function project_customizations_init() {
+  global $custom_theme;</p>
+
+<p>if ($_COOKIE['custom_theme']) {
+    $custom_theme = $_COOKIE['custom_theme'];
+  } 
+}
+</pre></p>
+<p>For this snippet to work you must create the cookie <strong>custom_theme</strong> with the value set to the name of the theme that you want to use.</p>
+<p>Other case ideas:</p>
+<ul>
+<li>Displaying debug information when navigating as anonymous.</li>
+<li>Avoid analytics when when navigating as anonymous.</li>
+<li>Navigate with a different language.</li>
+<li>Disable cache. Combined with xdebug profiler it allows you to profile anonymous page generation while still keep the cache active for the rest of the users.</li>
+</ul>
+<p>I'm sure this list can be made longer. You are welcome to post your ideas in the comments.</p>
+  </div>
+      <div class="meta">
+                <div class="links"></div>
+          </div>
+  </div> <!-- node -->
+<div id="block-disqus-disqus_comments" class="block block-disqus block-content">
+    <div id="disqus_thread"></div><noscript><div class="disqus-noscript"><a href="http://peterlozano.disqus.com/?url=http%3A%2F%2Fpeterlozano.com%2Falter-drupal-behavior-using-cookies">View the discussion thread.</a></div></noscript></div><!-- /block-disqus-disqus_comments -->
+<hr class="break"/>				</div><!-- /content -->
+									<div id="left-sidebar" class="grid-4">
+					  <div id="block-block-5" class="block block-block block-left">
+    <ul class="servicelist">
+<li><a class="service drupalorg" href="http://drupal.org/user/123766" rel="me nofollow">drupal.org</a></li>
+<li><a class="service linkedin" href="http://www.linkedin.com/in/peterlozano" rel="me nofollow">LinkedIn</a></li>
+<li><a class="service twitter" href="http://www.twitter.com/peterlozano" rel="me nofollow">Twitter</a></li>
+<li><a class="service googleprofile" href="http://www.google.com/profiles/peterlozano" rel="me nofollow">Google+</a></li>
+<li><a class="service flickr" href="http://www.flickr.com/photos/peterlozano" rel="me nofollow">Flickr</a></li>
+</ul>
+</div><!-- /block-block-5 -->
+<hr class="break"/><div id="block-views-tracker-block_1" class="block block-views block-left">
+    	<h2>Recent posts</h2>
+    <div class="view view-tracker view-id-tracker view-display-id-block_1 view-dom-id-1">
+    
+  
+  
+      <div class="view-content">
+      <div class="item-list">
+    <ul>
+          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="symfony-drupal-8-related-issues-posts">Timeline of Symfony in Drupal 8 related issues and posts</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-2 views-row-even">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="barcelona-drupal-developer-days-2012-review">Barcelona Drupal Developer Days 2012 Review</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-3 views-row-odd">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="camera-drupal-instant-image-distribution">Camera to Drupal, instant image distribution</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-4 views-row-even">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="drupalcon-san-francisco-2010-day-3">Drupalcon San Francisco 2010, day 3</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-5 views-row-odd">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="drupalcon-san-francisco-2010-day-2">Drupalcon San Francisco 2010, day 2</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-6 views-row-even">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="drupalcon-san-francisco-2010-day-1">Drupalcon San Francisco 2010, day 1</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-7 views-row-odd">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="trip-san-francisco">Trip to San Francisco</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-8 views-row-even views-row-last">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="alter-drupal-behavior-using-cookies" class="active">Alter Drupal behavior using cookies</a></span>
+  </div>
+</li>
+      </ul>
+</div>    </div>
+  
+  
+  
+  
+  
+  
+</div> </div><!-- /block-views-tracker-block_1 -->
+<hr class="break"/>					</div><!-- /left-sidebar -->
+											</div><!-- /content-area -->
+			<hr class="break"/>
+			<div id="bottom-blocks" class="container-16">
+				<hr class="rule-bottom grid-16"/>
+				<div id="bottom-left" class="grid-4">
+					<div id="block-creativecommons-site_license" class="block block-creativecommons block-bottom_left">
+    
+<!--Creative Commons Site License-->
+
+<div class="creativecommons">
+		<a href="http://creativecommons.org/licenses/by/4.0/" rel="license"><img src="sites/peterlozano.com/modules/creativecommons/images/buttons/large/by.png" style="border-width: 0pt;" title="Creative Commons Attribution 4.0 International" alt="Creative Commons Attribution 4.0 International"/></a><br/>This <span rel="dc:type" href="http://purl.org/dc/dcmitype/">Work</span>, <a rel="cc:attributionURL" href="index.html" property="dc:title">Pedro Lozano</a>, is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International license</a>, although certain works referenced herein may be separately licensed.
+</div>
+<!--/Creative Commons Site License-->
+</div><!-- /block-creativecommons-site_license -->
+<hr class="break"/>				</div><!-- /bottom-left -->
+				<div id="bottom-center-left" class="grid-4">
+									</div><!-- /bottom-center-left -->
+				<div id="bottom-center-right" class="grid-4">
+									</div><!-- /bottom-center-right -->
+				<div id="bottom-right" class="grid-4">
+									</div><!-- /bottom-right -->
+			</div><!-- /bottom-blocks -->
+			<hr class="break"/>
+			<div id="footer-area" class="container-16">
+				<hr class="rule-top grid-16"/>
+				<div id="footer" class="grid-16">
+					<a href="http://drupal.org/project/nitobe">Nitobe</a> theme by <a href="http://shannonlucas.com">Shannon Lucas</a>.				</div><!-- /footer -->
+			</div><!-- /footer-area -->
+			<hr class="break"/>
+		</div><!-- /page-wrapper -->
+		<script type="text/javascript" src="sites/peterlozano.com/files/js/js_b17208f07c060289d3df9aa05980b2b5.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","dhtmlMenu":{"slide":"slide","clone":"clone"},"googleanalytics":{"trackOutgoing":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"},"disqus":{"url":"http:\/\/peterlozano.com\/alter-drupal-behavior-using-cookies","title":"Alter Drupal behavior using cookies","identifier":"node\/41","shortname":"peterlozano"}});
+//--><!]]>
+</script>
+		<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-9229997-1"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+	</body>
+</html>
